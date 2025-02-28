@@ -1,0 +1,158 @@
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Configure stats pid to 94506
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/.config/wandb/settings
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/PINNACLE/pinnacle/wandb/settings
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_init.py:_log_setup():476] Logging user logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121013-2evdmeg8/logs/debug.log
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_init.py:_log_setup():477] Logging internal logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121013-2evdmeg8/logs/debug-internal.log
+2025-02-28 12:10:13,121 INFO    MainThread:94506 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x2b043ac9e340>
+2025-02-28 12:10:13,122 INFO    MainThread:94506 [wandb_init.py:init():516] calling init triggers
+2025-02-28 12:10:13,122 INFO    MainThread:94506 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'pc_att_channels': 16, 'feat_mat': 1024, 'output': 16, 'hidden': 64, 'lr': 0.01, 'wd': 0.0005, 'dropout': 0.6, 'gradclip': 1.0, 'n_heads': 8, 'lambda': 0.1, 'theta': 0.3, 'lr_cent': 0.1, 'loss_type': 'BCE', 'plot': False}
+2025-02-28 12:10:13,122 INFO    MainThread:94506 [wandb_init.py:init():569] starting backend
+2025-02-28 12:10:13,122 INFO    MainThread:94506 [wandb_init.py:init():573] setting up manager
+2025-02-28 12:10:13,126 INFO    MainThread:94506 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-28 12:10:13,133 INFO    MainThread:94506 [wandb_init.py:init():580] backend started and connected
+2025-02-28 12:10:13,141 INFO    MainThread:94506 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2025-02-28 12:10:13,141 INFO    MainThread:94506 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-02-28 12:10:13,141 INFO    MainThread:94506 [wandb_init.py:init():658] updated telemetry
+2025-02-28 12:10:13,194 INFO    MainThread:94506 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2025-02-28 12:10:16,234 WARNING MsgRouterThr:94506 [router.py:message_loop():77] message_loop has been closed
+2025-02-28 12:10:23,204 ERROR   MainThread:94506 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 697, in init
+    result = handle.wait(
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 259, in wait
+    raise MailboxError("transport failed")
+wandb.errors.MailboxError: transport failed
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Configure stats pid to 94506
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/.config/wandb/settings
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/PINNACLE/pinnacle/wandb/settings
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_init.py:_log_setup():476] Logging user logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121456-33gwreqh/logs/debug.log
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_init.py:_log_setup():477] Logging internal logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121456-33gwreqh/logs/debug-internal.log
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_init.py:init():516] calling init triggers
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'pc_att_channels': 16, 'feat_mat': 1024, 'output': 16, 'hidden': 64, 'lr': 0.01, 'wd': 0.0005, 'dropout': 0.6, 'gradclip': 1.0, 'n_heads': 8, 'lambda': 0.1, 'theta': 0.3, 'lr_cent': 0.1, 'loss_type': 'BCE', 'plot': False}
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_init.py:init():569] starting backend
+2025-02-28 12:14:56,879 INFO    MainThread:94506 [wandb_init.py:init():573] setting up manager
+2025-02-28 12:14:56,897 ERROR   MainThread:94506 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-28 12:15:35,384 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Configure stats pid to 94506
+2025-02-28 12:15:35,384 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/.config/wandb/settings
+2025-02-28 12:15:35,384 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/PINNACLE/pinnacle/wandb/settings
+2025-02-28 12:15:35,384 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2025-02-28 12:15:35,384 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-28 12:15:35,384 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2025-02-28 12:15:35,384 INFO    MainThread:94506 [wandb_init.py:_log_setup():476] Logging user logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121535-2h31tz1c/logs/debug.log
+2025-02-28 12:15:35,385 INFO    MainThread:94506 [wandb_init.py:_log_setup():477] Logging internal logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121535-2h31tz1c/logs/debug-internal.log
+2025-02-28 12:15:35,385 INFO    MainThread:94506 [wandb_init.py:init():516] calling init triggers
+2025-02-28 12:15:35,385 INFO    MainThread:94506 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'pc_att_channels': 16, 'feat_mat': 1024, 'output': 16, 'hidden': 64, 'lr': 0.01, 'wd': 0.0005, 'dropout': 0.6, 'gradclip': 1.0, 'n_heads': 8, 'lambda': 0.1, 'theta': 0.3, 'lr_cent': 0.1, 'loss_type': 'BCE', 'plot': False}
+2025-02-28 12:15:35,385 INFO    MainThread:94506 [wandb_init.py:init():569] starting backend
+2025-02-28 12:15:35,385 INFO    MainThread:94506 [wandb_init.py:init():573] setting up manager
+2025-02-28 12:15:35,400 ERROR   MainThread:94506 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Configure stats pid to 94506
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/.config/wandb/settings
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/PINNACLE/pinnacle/wandb/settings
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_init.py:_log_setup():476] Logging user logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121539-357wg007/logs/debug.log
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_init.py:_log_setup():477] Logging internal logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_121539-357wg007/logs/debug-internal.log
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_init.py:init():516] calling init triggers
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'pc_att_channels': 16, 'feat_mat': 1024, 'output': 16, 'hidden': 64, 'lr': 0.01, 'wd': 0.0005, 'dropout': 0.6, 'gradclip': 1.0, 'n_heads': 8, 'lambda': 0.1, 'theta': 0.3, 'lr_cent': 0.1, 'loss_type': 'BCE', 'plot': False}
+2025-02-28 12:15:39,392 INFO    MainThread:94506 [wandb_init.py:init():569] starting backend
+2025-02-28 12:15:39,393 INFO    MainThread:94506 [wandb_init.py:init():573] setting up manager
+2025-02-28 12:15:39,405 ERROR   MainThread:94506 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-28 12:20:19,568 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Configure stats pid to 94506
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/.config/wandb/settings
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from /home/yang1641/PINNACLE/pinnacle/wandb/settings
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_init.py:_log_setup():476] Logging user logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_122019-5rdwbki8/logs/debug.log
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_init.py:_log_setup():477] Logging internal logs to /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_122019-5rdwbki8/logs/debug-internal.log
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_init.py:init():516] calling init triggers
+2025-02-28 12:20:19,569 INFO    MainThread:94506 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'pc_att_channels': 16, 'feat_mat': 1024, 'output': 16, 'hidden': 64, 'lr': 0.01, 'wd': 0.0005, 'dropout': 0.6, 'gradclip': 1.0, 'n_heads': 8, 'lambda': 0.1, 'theta': 0.3, 'lr_cent': 0.1, 'loss_type': 'BCE', 'plot': False}
+2025-02-28 12:20:19,570 INFO    MainThread:94506 [wandb_init.py:init():569] starting backend
+2025-02-28 12:20:19,570 INFO    MainThread:94506 [wandb_init.py:init():573] setting up manager
+2025-02-28 12:20:19,589 ERROR   MainThread:94506 [wandb_init.py:init():1105] error
+Traceback (most recent call last):
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1078, in init
+    run = wi.init()
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/yang1641/.conda/envs/cent7/2024.02-py311/pinnacle/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
