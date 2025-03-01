@@ -41,10 +41,6 @@ args = get_args()
 hparams_raw = get_hparams(args)
 
 save_log = args.save_prefix + "_gnn_train.log"
-# print('......')
-# print(save_log)
-# print('......')
-
 save_graph = args.save_prefix + "_graph.pkl"
 save_model = args.save_prefix + "_model_save.pth"
 save_plots = args.save_prefix + "_train_embed_plots.pdf"
@@ -54,7 +50,8 @@ save_labels_dict = args.save_prefix + "_labels_dict.txt"
 
 
 
-log_f = open(save_log, "w")
+# log_f = open(save_log, "w")
+log_f = open(save_log, "a")  # 'append' so we don't overwrite previous logs
 print('......')
 print('Writing to log_f: '+save_log)
 print('......')
@@ -74,7 +71,24 @@ eps = 10e-4
 
 # import wandb
 wandb.login(key="f362484a2783a681fd551a00093aad3ce3139d4a")
-wandb.init(config = hparams_raw, project = "pinnacle", allow_val_change=True)
+# wandb.init(config = hparams_raw, project = "pinnacle", allow_val_change=True)
+if args.wandb_run_id:
+        print(f"Attaching to existing wandb run ID {args.wandb_run_id}")
+        wandb.init(
+            config=hparams_raw,
+            project="pinnacle",
+            allow_val_change=True,
+            id=args.wandb_run_id,
+            resume="allow"
+        )
+else:
+    print("No wandb_run_id provided; creating a brand new run.")
+    wandb.init(
+        config=hparams_raw,
+        project="pinnacle",
+        allow_val_change=True
+    )
+
 
 hparams = wandb.config
 
@@ -143,7 +157,13 @@ def train(epoch, model, optimizer, center_loss):
     if best_val_acc <= np.mean(val_acc) + eps:
         best_val_acc = np.mean(val_acc)
         with open(save_model, 'wb') as f:
-            torch.save({"epoch": epoch, "model": model, "optimizer": optimizer}, f)
+            # torch.save({"epoch": epoch, "model": model, "optimizer": optimizer}, f)
+            torch.save({
+            "epoch": epoch,
+            "model": model,
+            "optimizer": optimizer,
+            "best_val_acc": best_val_acc
+        }, f)
         best_model = copy.deepcopy(model)
     
     for i, val in enumerate(mg_metapaths_train):
@@ -191,11 +211,17 @@ def main():
     
     # Set up
     if args.resume_run != "":
-        save_model = "%s_model_save.pth" % args.resume_run
+        # save_model = "%s_model_save.pth" % args.resume_run
+        save_model = args.resume_run
         print("Resuming", save_model)
         checkpoint = torch.load(save_model)
         model = checkpoint["model"]
         optimizer = checkpoint["optimizer"]
+        # If the checkpoint included best_val_acc, use it
+        if "best_val_acc" in checkpoint:
+            best_val_acc = checkpoint["best_val_acc"]
+        else:
+            best_val_acc = -1
         params = list(model.parameters())
     else:
         #model = mdl.Pinnacle(mg_data.x.shape[1], hparams['hidden'], hparams['output'], len(ppi_metapaths), len(mg_metapaths), ppi_data, hparams['n_heads'], hparams['pc_att_channels'], hparams['dropout']).to(device)
@@ -203,6 +229,7 @@ def main():
         params = list(model.parameters())
         params = list(model.parameters())
         optimizer = torch.optim.Adam(params, lr = hparams['lr'], weight_decay = hparams['wd'])
+        best_val_acc = -1
     center_loss = CenterLoss(num_classes=len(set(center_loss_labels)), feat_dim=hparams['output'] * hparams['n_heads'], use_gpu=torch.cuda.is_available())
     params += list(center_loss.parameters())
     wandb.watch(model)

@@ -33,6 +33,11 @@ def get_args():
     parser.add_argument('--save_prefix', type=str, default='../data/pinnacle_embeds/pinnacle', help='Prefix of all saved files')
     parser.add_argument('--plot', type=bool, default=False, help='Boolean to fit and plot a UMAP')
     
+    # wandb
+    ### ADDED: wandb_run_id for cross-job continuity
+    parser.add_argument('--wandb_run_id', type=str, default="", help="W&B run ID to resume if needed.")
+
+    
     args = parser.parse_args()
     return args
 
