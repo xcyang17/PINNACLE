@@ -73,22 +73,17 @@ eps = 10e-4
 wandb.login(key="f362484a2783a681fd551a00093aad3ce3139d4a")
 # wandb.init(config = hparams_raw, project = "pinnacle", allow_val_change=True)
 if args.wandb_run_id:
-        print(f"Attaching to existing wandb run ID {args.wandb_run_id}")
-        wandb.init(
-            config=hparams_raw,
-            project="pinnacle",
-            allow_val_change=True,
-            id=args.wandb_run_id,
-            resume="allow"
-        )
-else:
-    print("No wandb_run_id provided; creating a brand new run.")
+    print(f"Attaching to existing wandb run ID {args.wandb_run_id}")
     wandb.init(
         config=hparams_raw,
         project="pinnacle",
-        allow_val_change=True
+        allow_val_change=True,
+        id=args.wandb_run_id,
+        resume="allow"
     )
-
+else:
+    print("No wandb_run_id provided; creating a brand new run.")
+    wandb.init(config=hparams_raw, project="pinnacle", allow_val_change=True)
 
 hparams = wandb.config
 
@@ -143,7 +138,7 @@ def train(epoch, model, optimizer, center_loss):
     calinski_harabasz, davies_bouldin = utils.calc_cluster_metrics(ppi_x)
     
     # Save metrics
-    res = "\t".join(["Epoch: %04d" % (epoch + 1), 
+    res = "\t".join(["Epoch: %04d" % (epoch + 1 + args.completed_epochs), 
                      "train_loss = {:.5f}".format(loss), 
                      "val_roc = {:.5f}".format(roc_score), 
                      "val_ap = {:.5f}".format(ap_score), 
@@ -164,6 +159,8 @@ def train(epoch, model, optimizer, center_loss):
             "optimizer": optimizer,
             "best_val_acc": best_val_acc
         }, f)
+        # Also store best_model in RAM, so we can test later
+        global best_model
         best_model = copy.deepcopy(model)
     
     for i, val in enumerate(mg_metapaths_train):
@@ -212,13 +209,15 @@ def main():
     # Set up
     if args.resume_run != "":
         # save_model = "%s_model_save.pth" % args.resume_run
+        print('Resuming from:', args.resume_run)
         save_model = args.resume_run
         print("Resuming", save_model)
         checkpoint = torch.load(save_model)
         model = checkpoint["model"]
         optimizer = checkpoint["optimizer"]
-        # If the checkpoint included best_val_acc, use it
+        ### ADDED: restore best_val_acc if present
         if "best_val_acc" in checkpoint:
+            global best_val_acc
             best_val_acc = checkpoint["best_val_acc"]
         else:
             best_val_acc = -1

@@ -1,0 +1,21 @@
+EPOCHS_DONE: 50
+Completed epochs so far: 50
+Launching job 2 out of 5 total (each job runs 50 epochs).
+Reusing existing W&B run ID: 0e895194-344d-44c9-98af-3770b6daf677
+Resuming training from checkpoint: /scratch/gilbreth/yang1641/exome/results/pinnacle/reproduce/epoch250/try1_model_save.pth
+/home/yang1641/.conda/envs/pinnacle/lib/python3.8/site-packages/torch/cuda/__init__.py:146: UserWarning: 
+NVIDIA A30 with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_61 sm_70 sm_75 compute_37.
+If you want to use the NVIDIA A30 GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+wandb: Currently logged in as: yang1641 (yang1641-purdue-university). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/yang1641/.netrc
+wandb: wandb version 0.19.7 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.4
+wandb: Run data is saved locally in /home/yang1641/PINNACLE/wandb/run-20250301_171753-0e895194-344d-44c9-98af-3770b6daf677
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Resuming run 0e895194-344d-44c9-98af-3770b6daf677
+wandb: ⭐️ View project at https://wandb.ai/yang1641-purdue-university/pinnacle
+wandb: 🚀 View run at https://wandb.ai/yang1641-purdue-university/pinnacle/runs/0e895194-344d-44c9-98af-3770b6daf677

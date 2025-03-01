@@ -1,0 +1,1268 @@
+Number of PPI layers: 156 156 156 156
+Number of nodes: 218 Number of edges: 4018
+{'duct epithelial cell': <networkx.classes.graph.Graph object at 0x15369c076eb0>, 'myoepithelial cell': <networkx.classes.graph.Graph object at 0x15369c076fa0>, 'mucus secreting cell': <networkx.classes.graph.Graph object at 0x1536ac2f9730>, 'intestinal crypt stem cell': <networkx.classes.graph.Graph object at 0x1536ac2f9400>, 'cd4-positive, alpha-beta memory t cell': <networkx.classes.graph.Graph object at 0x1536a32fb1f0>, 'plasmacytoid dendritic cell': <networkx.classes.graph.Graph object at 0x1536a32fb2e0>, 'ciliated cell': <networkx.classes.graph.Graph object at 0x15369c077610>, 'mature enterocyte': <networkx.classes.graph.Graph object at 0x15369c077460>, 'naive regulatory t cell': <networkx.classes.graph.Graph object at 0x15369c077400>, 'pulmonary ionocyte': <networkx.classes.graph.Graph object at 0x15369c0773d0>, 'erythroid progenitor': <networkx.classes.graph.Graph object at 0x15369c077910>, 'pancreatic alpha cell': <networkx.classes.graph.Graph object at 0x15369c077760>, 'sperm': <networkx.classes.graph.Graph object at 0x15369c076c10>, 'tongue muscle cell': <networkx.classes.graph.Graph object at 0x15369c076af0>, 'mesothelial cell': <networkx.classes.graph.Graph object at 0x15369c0768b0>, 'cd24 neutrophil': <networkx.classes.graph.Graph object at 0x15369c076790>, 'stromal cell': <networkx.classes.graph.Graph object at 0x15369c076550>, 'respiratory mucous cell': <networkx.classes.graph.Graph object at 0x15369c0763a0>, 'retinal ganglion cell': <networkx.classes.graph.Graph object at 0x15369c076280>, 'hillock cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x15369c076b80>, 'epithelial cell of lacrimal sac': <networkx.classes.graph.Graph object at 0x15369c075ee0>, 'retina horizontal cell': <networkx.classes.graph.Graph object at 0x15369c075d30>, 'muscle cell': <networkx.classes.graph.Graph object at 0x15369c075b80>, 'radial glial cell': <networkx.classes.graph.Graph object at 0x15369c0759d0>, 'acinar cell of salivary gland': <networkx.classes.graph.Graph object at 0x15369c075790>, 'pancreatic ductal cell': <networkx.classes.graph.Graph object at 0x15369c0755e0>, 'respiratory goblet cell': <networkx.classes.graph.Graph object at 0x15369c075430>, 'intermediate monocyte': <networkx.classes.graph.Graph object at 0x15369c377b50>, 'gut endothelial cell': <networkx.classes.graph.Graph object at 0x15369c3776d0>, 'basal cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x15369c377af0>, 'bronchial smooth muscle cell': <networkx.classes.graph.Graph object at 0x15369c376ee0>, 'immature enterocyte': <networkx.classes.graph.Graph object at 0x15369c376490>, 'melanocyte': <networkx.classes.graph.Graph object at 0x15369c104520>, 'goblet cell': <networkx.classes.graph.Graph object at 0x1536ac2ee670>, 'b cell': <networkx.classes.graph.Graph object at 0x1536ac2ee640>, 'pancreatic beta cell': <networkx.classes.graph.Graph object at 0x15369c0778e0>, 'macrophage': <networkx.classes.graph.Graph object at 0x15369c077f70>, 'bladder urothelial cell': <networkx.classes.graph.Graph object at 0x15369c077dc0>, 'pancreatic pp cell': <networkx.classes.graph.Graph object at 0x15369c077c10>, 'plasmablast': <networkx.classes.graph.Graph object at 0x15369c077a60>, 'limbal stromal cell': <networkx.classes.graph.Graph object at 0x15369c0778b0>, 'ionocyte': <networkx.classes.graph.Graph object at 0x15369c077670>, 'bronchial vessel endothelial cell': <networkx.classes.graph.Graph object at 0x15369c077550>, 'endothelial cell': <networkx.classes.graph.Graph object at 0x15369c0773a0>, 'corneal epithelial cell': <networkx.classes.graph.Graph object at 0x15369c077160>, 'duodenum glandular cell': <networkx.classes.graph.Graph object at 0x15369c0775b0>, 'schwann cell': <networkx.classes.graph.Graph object at 0x15369c0771c0>, 'cardiac endothelial cell': <networkx.classes.graph.Graph object at 0x15369c0772b0>, 'cd141-positive myeloid dendritic cell': <networkx.classes.graph.Graph object at 0x15369c077100>, 'cd1c-positive myeloid dendritic cell': <networkx.classes.graph.Graph object at 0x15369c077490>, 'lacrimal gland functional unit cell': <networkx.classes.graph.Graph object at 0x15369c115520>, 'cd8-positive, alpha-beta cytotoxic t cell': <networkx.classes.graph.Graph object at 0x15369c1155b0>, 'mesenchymal stem cell': <networkx.classes.graph.Graph object at 0x15369c115d00>, 'cd8-positive, alpha-beta cytokine secreting effector t cell': <networkx.classes.graph.Graph object at 0x15369c115730>, 'enterocyte of epithelium of large intestine': <networkx.classes.graph.Graph object at 0x15369c1153d0>, 'lung microvascular endothelial cell': <networkx.classes.graph.Graph object at 0x15369c115190>, 'ciliary body': <networkx.classes.graph.Graph object at 0x15369c1151c0>, 'pancreatic acinar cell': <networkx.classes.graph.Graph object at 0x15369c115310>, 'eye photoreceptor cell': <networkx.classes.graph.Graph object at 0x15369c0f1070>, 'classical monocyte': <networkx.classes.graph.Graph object at 0x15369c0f17c0>, 'intestinal enteroendocrine cell': <networkx.classes.graph.Graph object at 0x15369c0f1790>, 'club cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x15369c0f2700>, 'club cell': <networkx.classes.graph.Graph object at 0x15369c0f2340>, 'salivary gland cell': <networkx.classes.graph.Graph object at 0x15369c0f27f0>, 'type i pneumocyte': <networkx.classes.graph.Graph object at 0x15369c0f2460>, 'non-classical monocyte': <networkx.classes.graph.Graph object at 0x15369c078ee0>, 'capillary endothelial cell': <networkx.classes.graph.Graph object at 0x15369c078dc0>, 'basal cell': <networkx.classes.graph.Graph object at 0x15369c078c10>, 'cell of skeletal muscle': <networkx.classes.graph.Graph object at 0x15369c078af0>, 'tendon cell': <networkx.classes.graph.Graph object at 0x15369c0788b0>, 'myofibroblast cell': <networkx.classes.graph.Graph object at 0x15369c078700>, 'fast muscle cell': <networkx.classes.graph.Graph object at 0x15369c078550>, 'myeloid progenitor': <networkx.classes.graph.Graph object at 0x15369c078430>, 'paneth cell of epithelium of large intestine': <networkx.classes.graph.Graph object at 0x15369c0781f0>, 'muller cell': <networkx.classes.graph.Graph object at 0x15369c078040>, 'retinal pigment epithelial cell': <networkx.classes.graph.Graph object at 0x15369c078130>, 'hillock-club cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x15369c078250>, 'plasma cell': <networkx.classes.graph.Graph object at 0x15369c078640>, 'hematopoietic stem cell': <networkx.classes.graph.Graph object at 0x15369c078730>, 'lymphatic endothelial cell': <networkx.classes.graph.Graph object at 0x15369c0787f0>, 'epithelial cell': <networkx.classes.graph.Graph object at 0x15369c0788e0>, 'serous cell of epithelium of bronchus': <networkx.classes.graph.Graph object at 0x15369c078a00>, 'vascular associated smooth muscle cell': <networkx.classes.graph.Graph object at 0x15369c078ac0>, 'fibroblast of breast': <networkx.classes.graph.Graph object at 0x15369c078b50>, 'mature conventional dendritic cell': <networkx.classes.graph.Graph object at 0x15369c078c70>, 'dn1 thymic pro-t cell': <networkx.classes.graph.Graph object at 0x15369c078d00>, 'enterocyte of epithelium of small intestine': <networkx.classes.graph.Graph object at 0x15369c078e20>, 'cd4-positive helper t cell': <networkx.classes.graph.Graph object at 0x15369c078eb0>, 'connective tissue cell': <networkx.classes.graph.Graph object at 0x15369c078f70>, 'double-positive, alpha-beta thymocyte': <networkx.classes.graph.Graph object at 0x1536a337e520>, 'endothelial cell of artery': <networkx.classes.graph.Graph object at 0x1536a337e580>, 'adipocyte': <networkx.classes.graph.Graph object at 0x15369c399bb0>, 'regulatory t cell': <networkx.classes.graph.Graph object at 0x15369c399c40>, 'large intestine goblet cell': <networkx.classes.graph.Graph object at 0x15369c399a00>, 'limbal stem cell': <networkx.classes.graph.Graph object at 0x15369c399b50>, 'myeloid cell': <networkx.classes.graph.Graph object at 0x15369c399a60>, 'luminal epithelial cell of mammary gland': <networkx.classes.graph.Graph object at 0x15369c399850>, 'memory b cell': <networkx.classes.graph.Graph object at 0x15369c399880>, 'vein endothelial cell': <networkx.classes.graph.Graph object at 0x15369c050280>, 'tracheal goblet cell': <networkx.classes.graph.Graph object at 0x15369c050160>, 'immune cell': <networkx.classes.graph.Graph object at 0x15369c050040>, 'pericyte cell': <networkx.classes.graph.Graph object at 0x15369c0502e0>, 'fibroblast of cardiac tissue': <networkx.classes.graph.Graph object at 0x15369c050130>, 'immature natural killer cell': <networkx.classes.graph.Graph object at 0x15369c050220>, 'dn4 thymocyte': <networkx.classes.graph.Graph object at 0x15369c0504c0>, 'granulocyte': <networkx.classes.graph.Graph object at 0x15369c0503a0>, 'alveolar fibroblast': <networkx.classes.graph.Graph object at 0x15369c0504f0>, 'pancreatic stellate cell': <networkx.classes.graph.Graph object at 0x15369c050580>, 'kidney epithelial cell': <networkx.classes.graph.Graph object at 0x15369c050640>, 'ciliated epithelial cell': <networkx.classes.graph.Graph object at 0x15369c0506d0>, 'transit amplifying cell of large intestine': <networkx.classes.graph.Graph object at 0x15369c050760>, 'intrahepatic cholangiocyte': <networkx.classes.graph.Graph object at 0x15369c0507f0>, 'dendritic cell': <networkx.classes.graph.Graph object at 0x15369c050880>, 'mature nk t cell': <networkx.classes.graph.Graph object at 0x15369c050910>, 'myometrial cell': <networkx.classes.graph.Graph object at 0x15369c0509a0>, 'fibroblast': <networkx.classes.graph.Graph object at 0x15369c050a30>, 'transit amplifying cell of small intestine': <networkx.classes.graph.Graph object at 0x15369c050460>, 'type ii pneumocyte': <networkx.classes.graph.Graph object at 0x15369c050b20>, 'conjunctival epithelial cell': <networkx.classes.graph.Graph object at 0x15369c050b80>, 'liver dendritic cell': <networkx.classes.graph.Graph object at 0x15369c050c40>, 'nampt neutrophil': <networkx.classes.graph.Graph object at 0x15369c050a00>, 'endothelial cell of lymphatic vessel': <networkx.classes.graph.Graph object at 0x15369c050dc0>, 'ocular surface cell': <networkx.classes.graph.Graph object at 0x15369c050df0>, 'pancreatic delta cell': <networkx.classes.graph.Graph object at 0x15369c050eb0>, 'secretory cell': <networkx.classes.graph.Graph object at 0x15369c050f10>, 'intestinal tuft cell': <networkx.classes.graph.Graph object at 0x15369c050fa0>, 'medullary thymic epithelial cell': <networkx.classes.graph.Graph object at 0x1536107f40a0>, 'retinal bipolar neuron': <networkx.classes.graph.Graph object at 0x1536107f4130>, 'paneth cell of epithelium of small intestine': <networkx.classes.graph.Graph object at 0x1536107f41c0>, 'adventitial cell': <networkx.classes.graph.Graph object at 0x1536107f4220>, 'dn3 thymocyte': <networkx.classes.graph.Graph object at 0x1536107f42b0>, 'endothelial cell of hepatic sinusoid': <networkx.classes.graph.Graph object at 0x1536107f4370>, 't follicular helper cell': <networkx.classes.graph.Graph object at 0x1536107f4400>, 'skeletal muscle satellite stem cell': <networkx.classes.graph.Graph object at 0x1536107f4460>, 'lung ciliated cell': <networkx.classes.graph.Graph object at 0x1536107f44f0>, 'microglial cell': <networkx.classes.graph.Graph object at 0x1536107f4580>, 'monocyte': <networkx.classes.graph.Graph object at 0x1536107f4610>, 'intestinal crypt stem cell of small intestine': <networkx.classes.graph.Graph object at 0x1536107f46d0>, 'small intestine goblet cell': <networkx.classes.graph.Graph object at 0x1536107f4730>, 'retinal blood vessel endothelial cell': <networkx.classes.graph.Graph object at 0x1536107f47f0>, 'artery endothelial cell': <networkx.classes.graph.Graph object at 0x1536107f4880>, 'serous cell of epithelium of trachea': <networkx.classes.graph.Graph object at 0x1536107f4910>, 'keratinocyte': <networkx.classes.graph.Graph object at 0x1536107f4970>, 'myeloid dendritic cell': <networkx.classes.graph.Graph object at 0x1536107f4a30>, 'corneal keratocyte': <networkx.classes.graph.Graph object at 0x1536107f4a90>, 'naive thymus-derived cd4-positive, alpha-beta t cell': <networkx.classes.graph.Graph object at 0x1536107f4b20>, 'cardiac muscle cell': <networkx.classes.graph.Graph object at 0x1536107f4bb0>, 'hepatocyte': <networkx.classes.graph.Graph object at 0x1536107f4c70>, 'langerhans cell': <networkx.classes.graph.Graph object at 0x1536107f4cd0>, 'intestinal crypt stem cell of large intestine': <networkx.classes.graph.Graph object at 0x1536107f4d90>, 'epithelial cell of uterus': <networkx.classes.graph.Graph object at 0x1536107f4df0>, 'luminal cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x1536107f4e80>, 'nk cell': <networkx.classes.graph.Graph object at 0x1536107f4f40>, 'smooth muscle cell': <networkx.classes.graph.Graph object at 0x1536107f4fa0>, 'endothelial cell of vascular tree': <networkx.classes.graph.Graph object at 0x1535f7ead070>, 'type i nk t cell': <networkx.classes.graph.Graph object at 0x1535f7ead100>}
+{'acinar cell of salivary gland': 0, 'adipocyte': 1, 'adventitial cell': 2, 'alveolar fibroblast': 3, 'artery endothelial cell': 4, 'b cell': 5, 'basal cell': 6, 'basal cell of prostate epithelium': 7, 'bladder urothelial cell': 8, 'bronchial smooth muscle cell': 9, 'bronchial vessel endothelial cell': 10, 'capillary endothelial cell': 11, 'cardiac endothelial cell': 12, 'cardiac muscle cell': 13, 'cd141-positive myeloid dendritic cell': 14, 'cd1c-positive myeloid dendritic cell': 15, 'cd24 neutrophil': 16, 'cd4-positive helper t cell': 17, 'cd4-positive, alpha-beta memory t cell': 18, 'cd8-positive, alpha-beta cytokine secreting effector t cell': 19, 'cd8-positive, alpha-beta cytotoxic t cell': 20, 'cell of skeletal muscle': 21, 'ciliary body': 22, 'ciliated cell': 23, 'ciliated epithelial cell': 24, 'classical monocyte': 25, 'club cell': 26, 'club cell of prostate epithelium': 27, 'conjunctival epithelial cell': 28, 'connective tissue cell': 29, 'corneal epithelial cell': 30, 'corneal keratocyte': 31, 'dendritic cell': 32, 'dn1 thymic pro-t cell': 33, 'dn3 thymocyte': 34, 'dn4 thymocyte': 35, 'double-positive, alpha-beta thymocyte': 36, 'duct epithelial cell': 37, 'duodenum glandular cell': 38, 'endothelial cell': 39, 'endothelial cell of artery': 40, 'endothelial cell of hepatic sinusoid': 41, 'endothelial cell of lymphatic vessel': 42, 'endothelial cell of vascular tree': 43, 'enterocyte of epithelium of large intestine': 44, 'enterocyte of epithelium of small intestine': 45, 'epithelial cell': 46, 'epithelial cell of lacrimal sac': 47, 'epithelial cell of uterus': 48, 'erythroid progenitor': 49, 'eye photoreceptor cell': 50, 'fast muscle cell': 51, 'fibroblast': 52, 'fibroblast of breast': 53, 'fibroblast of cardiac tissue': 54, 'goblet cell': 55, 'granulocyte': 56, 'gut endothelial cell': 57, 'hematopoietic stem cell': 58, 'hepatocyte': 59, 'hillock cell of prostate epithelium': 60, 'hillock-club cell of prostate epithelium': 61, 'immature enterocyte': 62, 'immature natural killer cell': 63, 'immune cell': 64, 'intermediate monocyte': 65, 'intestinal crypt stem cell': 66, 'intestinal crypt stem cell of large intestine': 67, 'intestinal crypt stem cell of small intestine': 68, 'intestinal enteroendocrine cell': 69, 'intestinal tuft cell': 70, 'intrahepatic cholangiocyte': 71, 'ionocyte': 72, 'keratinocyte': 73, 'kidney epithelial cell': 74, 'lacrimal gland functional unit cell': 75, 'langerhans cell': 76, 'large intestine goblet cell': 77, 'limbal stem cell': 78, 'limbal stromal cell': 79, 'liver dendritic cell': 80, 'luminal cell of prostate epithelium': 81, 'luminal epithelial cell of mammary gland': 82, 'lung ciliated cell': 83, 'lung microvascular endothelial cell': 84, 'lymphatic endothelial cell': 85, 'macrophage': 86, 'mature conventional dendritic cell': 87, 'mature enterocyte': 88, 'mature nk t cell': 89, 'medullary thymic epithelial cell': 90, 'melanocyte': 91, 'memory b cell': 92, 'mesenchymal stem cell': 93, 'mesothelial cell': 94, 'microglial cell': 95, 'monocyte': 96, 'mucus secreting cell': 97, 'muller cell': 98, 'muscle cell': 99, 'myeloid cell': 100, 'myeloid dendritic cell': 101, 'myeloid progenitor': 102, 'myoepithelial cell': 103, 'myofibroblast cell': 104, 'myometrial cell': 105, 'naive regulatory t cell': 106, 'naive thymus-derived cd4-positive, alpha-beta t cell': 107, 'nampt neutrophil': 108, 'nk cell': 109, 'non-classical monocyte': 110, 'ocular surface cell': 111, 'pancreatic acinar cell': 112, 'pancreatic alpha cell': 113, 'pancreatic beta cell': 114, 'pancreatic delta cell': 115, 'pancreatic ductal cell': 116, 'pancreatic pp cell': 117, 'pancreatic stellate cell': 118, 'paneth cell of epithelium of large intestine': 119, 'paneth cell of epithelium of small intestine': 120, 'pericyte cell': 121, 'plasma cell': 122, 'plasmablast': 123, 'plasmacytoid dendritic cell': 124, 'pulmonary ionocyte': 125, 'radial glial cell': 126, 'regulatory t cell': 127, 'respiratory goblet cell': 128, 'respiratory mucous cell': 129, 'retina horizontal cell': 130, 'retinal bipolar neuron': 131, 'retinal blood vessel endothelial cell': 132, 'retinal ganglion cell': 133, 'retinal pigment epithelial cell': 134, 'salivary gland cell': 135, 'schwann cell': 136, 'secretory cell': 137, 'serous cell of epithelium of bronchus': 138, 'serous cell of epithelium of trachea': 139, 'skeletal muscle satellite stem cell': 140, 'small intestine goblet cell': 141, 'smooth muscle cell': 142, 'sperm': 143, 'stromal cell': 144, 't follicular helper cell': 145, 'tendon cell': 146, 'tongue muscle cell': 147, 'tracheal goblet cell': 148, 'transit amplifying cell of large intestine': 149, 'transit amplifying cell of small intestine': 150, 'type i nk t cell': 151, 'type i pneumocyte': 152, 'type ii pneumocyte': 153, 'vascular associated smooth muscle cell': 154, 'vein endothelial cell': 155, 'BTO:0000000': 156, 'BTO:0000042': 157, 'BTO:0000058': 158, 'BTO:0000080': 159, 'BTO:0000081': 160, 'BTO:0000082': 161, 'BTO:0000083': 162, 'BTO:0000088': 163, 'BTO:0000089': 164, 'BTO:0000123': 165, 'BTO:0000141': 166, 'BTO:0000149': 167, 'BTO:0000202': 168, 'BTO:0000203': 169, 'BTO:0000254': 170, 'BTO:0000282': 171, 'BTO:0000345': 172, 'BTO:0000421': 173, 'BTO:0000431': 174, 'BTO:0000439': 175, 'BTO:0000511': 176, 'BTO:0000522': 177, 'BTO:0000562': 178, 'BTO:0000570': 179, 'BTO:0000634': 180, 'BTO:0000648': 181, 'BTO:0000651': 182, 'BTO:0000671': 183, 'BTO:0000706': 184, 'BTO:0000753': 185, 'BTO:0000759': 186, 'BTO:0000763': 187, 'BTO:0000765': 188, 'BTO:0000784': 189, 'BTO:0000817': 190, 'BTO:0000887': 191, 'BTO:0000988': 192, 'BTO:0001085': 193, 'BTO:0001090': 194, 'BTO:0001129': 195, 'BTO:0001203': 196, 'BTO:0001244': 197, 'BTO:0001253': 198, 'BTO:0001281': 199, 'BTO:0001368': 200, 'BTO:0001374': 201, 'BTO:0001385': 202, 'BTO:0001388': 203, 'BTO:0001424': 204, 'BTO:0001485': 205, 'BTO:0001486': 206, 'BTO:0001487': 207, 'BTO:0001488': 208, 'BTO:0001489': 209, 'BTO:0001491': 210, 'BTO:0001493': 211, 'BTO:0003091': 212, 'BTO:0003092': 213, 'BTO:0003096': 214, 'BTO:0003099': 215, 'BTO:0003718': 216, 'BTO:0005810': 217}
+All relabeled nodes: [0, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 4, 10, 11, 25, 39, 40, 76, 78, 84, 132, 196, 1, 2, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 41, 42, 43, 44, 45, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 124, 125, 126, 127, 128, 130, 131, 134, 135, 137, 139, 140, 141, 142, 195, 189, 198, 201, 191, 46, 112, 202, 51, 133, 136, 138, 203, 184, 101, 182, 164, 199, 187, 123, 36, 190, 204, 129, 165, 216, 175, 207, 192, 186, 183, 178, 166, 171, 209, 194, 200, 211, 167, 206, 181, 208, 177, 172, 170, 159, 169, 188, 174, 215, 162, 214, 161, 156, 157, 210, 205, 180, 197, 213, 212, 163, 179, 173, 168, 217, 193, 176, 185, 160, 158]
+duct epithelial cell 2821 14603
+myoepithelial cell 2026 6823
+mucus secreting cell 2833 16017
+intestinal crypt stem cell 3072 37842
+cd4-positive, alpha-beta memory t cell 1067 7190
+plasmacytoid dendritic cell 2545 18752
+ciliated cell 2576 13643
+mature enterocyte 1103 2950
+naive regulatory t cell 2429 16970
+pulmonary ionocyte 2784 16533
+erythroid progenitor 3312 46025
+pancreatic alpha cell 2247 9712
+sperm 2635 23555
+tongue muscle cell 1382 6607
+mesothelial cell 3211 35080
+cd24 neutrophil 1837 7277
+stromal cell 3091 34462
+respiratory mucous cell 2939 21730
+retinal ganglion cell 1461 5959
+hillock cell of prostate epithelium 2748 15446
+epithelial cell of lacrimal sac 1531 4928
+retina horizontal cell 2361 11478
+muscle cell 2206 21898
+radial glial cell 3384 44458
+acinar cell of salivary gland 2386 8694
+pancreatic ductal cell 3054 22920
+respiratory goblet cell 3092 27756
+intermediate monocyte 2585 13380
+gut endothelial cell 1781 5997
+basal cell of prostate epithelium 3036 23354
+bronchial smooth muscle cell 1412 4389
+immature enterocyte 3101 33735
+melanocyte 2746 22070
+goblet cell 1990 7206
+b cell 1180 7427
+pancreatic beta cell 2742 18095
+macrophage 3113 23062
+bladder urothelial cell 3198 36542
+pancreatic pp cell 1397 6831
+plasmablast 3041 33719
+limbal stromal cell 2747 12402
+ionocyte 2866 16953
+bronchial vessel endothelial cell 3312 40280
+endothelial cell 3176 25570
+corneal epithelial cell 3290 32414
+duodenum glandular cell 2850 17490
+schwann cell 3015 20552
+cardiac endothelial cell 2066 8023
+cd141-positive myeloid dendritic cell 3296 41245
+cd1c-positive myeloid dendritic cell 3049 31128
+lacrimal gland functional unit cell 2323 7670
+cd8-positive, alpha-beta cytotoxic t cell 1854 8172
+mesenchymal stem cell 2834 22690
+cd8-positive, alpha-beta cytokine secreting effector t cell 1772 8128
+enterocyte of epithelium of large intestine 1320 4089
+lung microvascular endothelial cell 1908 7889
+ciliary body 3151 23451
+pancreatic acinar cell 2629 17194
+eye photoreceptor cell 2140 9127
+classical monocyte 3039 23543
+intestinal enteroendocrine cell 2848 15594
+club cell of prostate epithelium 2748 14088
+club cell 2140 8012
+salivary gland cell 3424 36255
+type i pneumocyte 2975 17100
+non-classical monocyte 1393 4736
+capillary endothelial cell 1394 4791
+basal cell 3182 35954
+cell of skeletal muscle 2891 23521
+tendon cell 2747 20597
+myofibroblast cell 2807 15310
+fast muscle cell 1297 6184
+myeloid progenitor 3337 48500
+paneth cell of epithelium of large intestine 1965 8291
+muller cell 2356 9804
+retinal pigment epithelial cell 2225 8581
+hillock-club cell of prostate epithelium 2952 21315
+plasma cell 3178 40013
+hematopoietic stem cell 2919 38048
+lymphatic endothelial cell 3023 19766
+epithelial cell 2818 25293
+serous cell of epithelium of bronchus 2954 24790
+vascular associated smooth muscle cell 2495 11550
+fibroblast of breast 2472 17934
+mature conventional dendritic cell 2988 28117
+dn1 thymic pro-t cell 1597 10528
+enterocyte of epithelium of small intestine 1943 7433
+cd4-positive helper t cell 1272 6893
+connective tissue cell 2164 7315
+double-positive, alpha-beta thymocyte 2628 25021
+endothelial cell of artery 2907 17058
+adipocyte 3099 34098
+regulatory t cell 2246 15626
+large intestine goblet cell 1215 3073
+limbal stem cell 3203 25216
+myeloid cell 3196 29416
+luminal epithelial cell of mammary gland 3094 31891
+memory b cell 1920 15774
+vein endothelial cell 3070 28516
+tracheal goblet cell 2965 17189
+immune cell 1435 6447
+pericyte cell 2986 19533
+fibroblast of cardiac tissue 1826 5967
+immature natural killer cell 1578 6569
+dn4 thymocyte 3443 50853
+granulocyte 3300 43306
+alveolar fibroblast 1201 3218
+pancreatic stellate cell 3110 25114
+kidney epithelial cell 2909 19643
+ciliated epithelial cell 3078 28230
+transit amplifying cell of large intestine 3158 38352
+intrahepatic cholangiocyte 2844 16123
+dendritic cell 2048 12452
+mature nk t cell 1450 6647
+myometrial cell 2478 12569
+fibroblast 3197 29774
+transit amplifying cell of small intestine 3031 33054
+type ii pneumocyte 3228 36096
+conjunctival epithelial cell 3112 25988
+liver dendritic cell 2472 15263
+nampt neutrophil 1291 4506
+endothelial cell of lymphatic vessel 3038 20587
+ocular surface cell 2986 20219
+pancreatic delta cell 2869 21706
+secretory cell 3134 25906
+intestinal tuft cell 1557 5246
+medullary thymic epithelial cell 3299 40121
+retinal bipolar neuron 2832 17018
+paneth cell of epithelium of small intestine 2695 15093
+adventitial cell 2763 27548
+dn3 thymocyte 1296 9277
+endothelial cell of hepatic sinusoid 2142 7759
+t follicular helper cell 2028 13962
+skeletal muscle satellite stem cell 1862 14990
+lung ciliated cell 2627 15103
+microglial cell 2606 17904
+monocyte 2866 19556
+intestinal crypt stem cell of small intestine 3239 40816
+small intestine goblet cell 1804 6258
+retinal blood vessel endothelial cell 3176 28717
+artery endothelial cell 3171 22408
+serous cell of epithelium of trachea 2741 15669
+keratinocyte 3217 36520
+myeloid dendritic cell 3258 39335
+corneal keratocyte 2952 15324
+naive thymus-derived cd4-positive, alpha-beta t cell 1080 7872
+cardiac muscle cell 3247 33782
+hepatocyte 3024 20858
+langerhans cell 3065 32454
+intestinal crypt stem cell of large intestine 1153 3034
+epithelial cell of uterus 3168 38295
+luminal cell of prostate epithelium 2738 13511
+nk cell 1457 5504
+smooth muscle cell 3186 24183
+endothelial cell of vascular tree 2163 15910
+type i nk t cell 1007 3051
+{'acinar cell of salivary gland': 0, 'adipocyte': 1, 'adventitial cell': 2, 'alveolar fibroblast': 3, 'artery endothelial cell': 4, 'b cell': 5, 'basal cell': 6, 'basal cell of prostate epithelium': 7, 'bladder urothelial cell': 8, 'bronchial smooth muscle cell': 9, 'bronchial vessel endothelial cell': 10, 'capillary endothelial cell': 11, 'cardiac endothelial cell': 12, 'cardiac muscle cell': 13, 'cd141-positive myeloid dendritic cell': 14, 'cd1c-positive myeloid dendritic cell': 15, 'cd24 neutrophil': 16, 'cd4-positive helper t cell': 17, 'cd4-positive, alpha-beta memory t cell': 18, 'cd8-positive, alpha-beta cytokine secreting effector t cell': 19, 'cd8-positive, alpha-beta cytotoxic t cell': 20, 'cell of skeletal muscle': 21, 'ciliary body': 22, 'ciliated cell': 23, 'ciliated epithelial cell': 24, 'classical monocyte': 25, 'club cell': 26, 'club cell of prostate epithelium': 27, 'conjunctival epithelial cell': 28, 'connective tissue cell': 29, 'corneal epithelial cell': 30, 'corneal keratocyte': 31, 'dendritic cell': 32, 'dn1 thymic pro-t cell': 33, 'dn3 thymocyte': 34, 'dn4 thymocyte': 35, 'double-positive, alpha-beta thymocyte': 36, 'duct epithelial cell': 37, 'duodenum glandular cell': 38, 'endothelial cell': 39, 'endothelial cell of artery': 40, 'endothelial cell of hepatic sinusoid': 41, 'endothelial cell of lymphatic vessel': 42, 'endothelial cell of vascular tree': 43, 'enterocyte of epithelium of large intestine': 44, 'enterocyte of epithelium of small intestine': 45, 'epithelial cell': 46, 'epithelial cell of lacrimal sac': 47, 'epithelial cell of uterus': 48, 'erythroid progenitor': 49, 'eye photoreceptor cell': 50, 'fast muscle cell': 51, 'fibroblast': 52, 'fibroblast of breast': 53, 'fibroblast of cardiac tissue': 54, 'goblet cell': 55, 'granulocyte': 56, 'gut endothelial cell': 57, 'hematopoietic stem cell': 58, 'hepatocyte': 59, 'hillock cell of prostate epithelium': 60, 'hillock-club cell of prostate epithelium': 61, 'immature enterocyte': 62, 'immature natural killer cell': 63, 'immune cell': 64, 'intermediate monocyte': 65, 'intestinal crypt stem cell': 66, 'intestinal crypt stem cell of large intestine': 67, 'intestinal crypt stem cell of small intestine': 68, 'intestinal enteroendocrine cell': 69, 'intestinal tuft cell': 70, 'intrahepatic cholangiocyte': 71, 'ionocyte': 72, 'keratinocyte': 73, 'kidney epithelial cell': 74, 'lacrimal gland functional unit cell': 75, 'langerhans cell': 76, 'large intestine goblet cell': 77, 'limbal stem cell': 78, 'limbal stromal cell': 79, 'liver dendritic cell': 80, 'luminal cell of prostate epithelium': 81, 'luminal epithelial cell of mammary gland': 82, 'lung ciliated cell': 83, 'lung microvascular endothelial cell': 84, 'lymphatic endothelial cell': 85, 'macrophage': 86, 'mature conventional dendritic cell': 87, 'mature enterocyte': 88, 'mature nk t cell': 89, 'medullary thymic epithelial cell': 90, 'melanocyte': 91, 'memory b cell': 92, 'mesenchymal stem cell': 93, 'mesothelial cell': 94, 'microglial cell': 95, 'monocyte': 96, 'mucus secreting cell': 97, 'muller cell': 98, 'muscle cell': 99, 'myeloid cell': 100, 'myeloid dendritic cell': 101, 'myeloid progenitor': 102, 'myoepithelial cell': 103, 'myofibroblast cell': 104, 'myometrial cell': 105, 'naive regulatory t cell': 106, 'naive thymus-derived cd4-positive, alpha-beta t cell': 107, 'nampt neutrophil': 108, 'nk cell': 109, 'non-classical monocyte': 110, 'ocular surface cell': 111, 'pancreatic acinar cell': 112, 'pancreatic alpha cell': 113, 'pancreatic beta cell': 114, 'pancreatic delta cell': 115, 'pancreatic ductal cell': 116, 'pancreatic pp cell': 117, 'pancreatic stellate cell': 118, 'paneth cell of epithelium of large intestine': 119, 'paneth cell of epithelium of small intestine': 120, 'pericyte cell': 121, 'plasma cell': 122, 'plasmablast': 123, 'plasmacytoid dendritic cell': 124, 'pulmonary ionocyte': 125, 'radial glial cell': 126, 'regulatory t cell': 127, 'respiratory goblet cell': 128, 'respiratory mucous cell': 129, 'retina horizontal cell': 130, 'retinal bipolar neuron': 131, 'retinal blood vessel endothelial cell': 132, 'retinal ganglion cell': 133, 'retinal pigment epithelial cell': 134, 'salivary gland cell': 135, 'schwann cell': 136, 'secretory cell': 137, 'serous cell of epithelium of bronchus': 138, 'serous cell of epithelium of trachea': 139, 'skeletal muscle satellite stem cell': 140, 'small intestine goblet cell': 141, 'smooth muscle cell': 142, 'sperm': 143, 'stromal cell': 144, 't follicular helper cell': 145, 'tendon cell': 146, 'tongue muscle cell': 147, 'tracheal goblet cell': 148, 'transit amplifying cell of large intestine': 149, 'transit amplifying cell of small intestine': 150, 'type i nk t cell': 151, 'type i pneumocyte': 152, 'type ii pneumocyte': 153, 'vascular associated smooth muscle cell': 154, 'vein endothelial cell': 155, 'BTO:0000000': 156, 'BTO:0000042': 157, 'BTO:0000058': 158, 'BTO:0000080': 159, 'BTO:0000081': 160, 'BTO:0000082': 161, 'BTO:0000083': 162, 'BTO:0000088': 163, 'BTO:0000089': 164, 'BTO:0000123': 165, 'BTO:0000141': 166, 'BTO:0000149': 167, 'BTO:0000202': 168, 'BTO:0000203': 169, 'BTO:0000254': 170, 'BTO:0000282': 171, 'BTO:0000345': 172, 'BTO:0000421': 173, 'BTO:0000431': 174, 'BTO:0000439': 175, 'BTO:0000511': 176, 'BTO:0000522': 177, 'BTO:0000562': 178, 'BTO:0000570': 179, 'BTO:0000634': 180, 'BTO:0000648': 181, 'BTO:0000651': 182, 'BTO:0000671': 183, 'BTO:0000706': 184, 'BTO:0000753': 185, 'BTO:0000759': 186, 'BTO:0000763': 187, 'BTO:0000765': 188, 'BTO:0000784': 189, 'BTO:0000817': 190, 'BTO:0000887': 191, 'BTO:0000988': 192, 'BTO:0001085': 193, 'BTO:0001090': 194, 'BTO:0001129': 195, 'BTO:0001203': 196, 'BTO:0001244': 197, 'BTO:0001253': 198, 'BTO:0001281': 199, 'BTO:0001368': 200, 'BTO:0001374': 201, 'BTO:0001385': 202, 'BTO:0001388': 203, 'BTO:0001424': 204, 'BTO:0001485': 205, 'BTO:0001486': 206, 'BTO:0001487': 207, 'BTO:0001488': 208, 'BTO:0001489': 209, 'BTO:0001491': 210, 'BTO:0001493': 211, 'BTO:0003091': 212, 'BTO:0003092': 213, 'BTO:0003096': 214, 'BTO:0003099': 215, 'BTO:0003718': 216, 'BTO:0005810': 217}
+Center loss labels: Counter({35: 3443, 135: 3424, 126: 3384, 102: 3337, 49: 3312, 10: 3312, 56: 3300, 90: 3299, 14: 3296, 30: 3290, 101: 3258, 13: 3247, 68: 3239, 153: 3228, 73: 3217, 94: 3211, 78: 3203, 8: 3198, 52: 3197, 100: 3196, 142: 3186, 6: 3182, 122: 3178, 39: 3176, 132: 3176, 4: 3171, 48: 3168, 149: 3158, 22: 3151, 137: 3134, 86: 3113, 28: 3112, 118: 3110, 62: 3101, 1: 3099, 82: 3094, 128: 3092, 144: 3091, 24: 3078, 66: 3072, 155: 3070, 76: 3065, 116: 3054, 15: 3049, 123: 3041, 25: 3039, 42: 3038, 7: 3036, 150: 3031, 59: 3024, 85: 3023, 136: 3015, 87: 2988, 121: 2986, 111: 2986, 152: 2975, 148: 2965, 138: 2954, 61: 2952, 31: 2952, 129: 2939, 58: 2919, 74: 2909, 40: 2907, 21: 2891, 115: 2869, 72: 2866, 96: 2866, 38: 2850, 69: 2848, 71: 2844, 93: 2834, 97: 2833, 131: 2832, 37: 2821, 46: 2818, 104: 2807, 125: 2784, 2: 2763, 60: 2748, 27: 2748, 79: 2747, 146: 2747, 91: 2746, 114: 2742, 139: 2741, 81: 2738, 120: 2695, 143: 2635, 112: 2629, 36: 2628, 83: 2627, 95: 2606, 65: 2585, 23: 2576, 124: 2545, 154: 2495, 105: 2478, 53: 2472, 80: 2472, 106: 2429, 0: 2386, 130: 2361, 98: 2356, 75: 2323, 113: 2247, 127: 2246, 134: 2225, 99: 2206, 29: 2164, 43: 2163, 41: 2142, 50: 2140, 26: 2140, 12: 2066, 32: 2048, 145: 2028, 103: 2026, 55: 1990, 119: 1965, 45: 1943, 92: 1920, 84: 1908, 140: 1862, 20: 1854, 16: 1837, 54: 1826, 141: 1804, 57: 1781, 19: 1772, 33: 1597, 63: 1578, 70: 1557, 47: 1531, 133: 1461, 109: 1457, 89: 1450, 64: 1435, 9: 1412, 117: 1397, 11: 1394, 110: 1393, 147: 1382, 44: 1320, 51: 1297, 34: 1296, 108: 1291, 17: 1272, 77: 1215, 3: 1201, 5: 1180, 67: 1153, 88: 1103, 107: 1080, 18: 1067, 151: 1007})
+Resuming from: /scratch/gilbreth/yang1641/exome/results/pinnacle/reproduce/epoch250/try1_model_save.pth
+Resuming /scratch/gilbreth/yang1641/exome/results/pinnacle/reproduce/epoch250/try1_model_save.pth
+Pinnacle(
+  (conv1_up): PCTConv(
+    (ppi_w): ModuleList(
+      (0): GATv2Conv(1024, 64, heads=8)
+      (1): GATv2Conv(1024, 64, heads=8)
+      (2): GATv2Conv(1024, 64, heads=8)
+      (3): GATv2Conv(1024, 64, heads=8)
+      (4): GATv2Conv(1024, 64, heads=8)
+      (5): GATv2Conv(1024, 64, heads=8)
+      (6): GATv2Conv(1024, 64, heads=8)
+      (7): GATv2Conv(1024, 64, heads=8)
+      (8): GATv2Conv(1024, 64, heads=8)
+      (9): GATv2Conv(1024, 64, heads=8)
+      (10): GATv2Conv(1024, 64, heads=8)
+      (11): GATv2Conv(1024, 64, heads=8)
+      (12): GATv2Conv(1024, 64, heads=8)
+      (13): GATv2Conv(1024, 64, heads=8)
+      (14): GATv2Conv(1024, 64, heads=8)
+      (15): GATv2Conv(1024, 64, heads=8)
+      (16): GATv2Conv(1024, 64, heads=8)
+      (17): GATv2Conv(1024, 64, heads=8)
+      (18): GATv2Conv(1024, 64, heads=8)
+      (19): GATv2Conv(1024, 64, heads=8)
+      (20): GATv2Conv(1024, 64, heads=8)
+      (21): GATv2Conv(1024, 64, heads=8)
+      (22): GATv2Conv(1024, 64, heads=8)
+      (23): GATv2Conv(1024, 64, heads=8)
+      (24): GATv2Conv(1024, 64, heads=8)
+      (25): GATv2Conv(1024, 64, heads=8)
+      (26): GATv2Conv(1024, 64, heads=8)
+      (27): GATv2Conv(1024, 64, heads=8)
+      (28): GATv2Conv(1024, 64, heads=8)
+      (29): GATv2Conv(1024, 64, heads=8)
+      (30): GATv2Conv(1024, 64, heads=8)
+      (31): GATv2Conv(1024, 64, heads=8)
+      (32): GATv2Conv(1024, 64, heads=8)
+      (33): GATv2Conv(1024, 64, heads=8)
+      (34): GATv2Conv(1024, 64, heads=8)
+      (35): GATv2Conv(1024, 64, heads=8)
+      (36): GATv2Conv(1024, 64, heads=8)
+      (37): GATv2Conv(1024, 64, heads=8)
+      (38): GATv2Conv(1024, 64, heads=8)
+      (39): GATv2Conv(1024, 64, heads=8)
+      (40): GATv2Conv(1024, 64, heads=8)
+      (41): GATv2Conv(1024, 64, heads=8)
+      (42): GATv2Conv(1024, 64, heads=8)
+      (43): GATv2Conv(1024, 64, heads=8)
+      (44): GATv2Conv(1024, 64, heads=8)
+      (45): GATv2Conv(1024, 64, heads=8)
+      (46): GATv2Conv(1024, 64, heads=8)
+      (47): GATv2Conv(1024, 64, heads=8)
+      (48): GATv2Conv(1024, 64, heads=8)
+      (49): GATv2Conv(1024, 64, heads=8)
+      (50): GATv2Conv(1024, 64, heads=8)
+      (51): GATv2Conv(1024, 64, heads=8)
+      (52): GATv2Conv(1024, 64, heads=8)
+      (53): GATv2Conv(1024, 64, heads=8)
+      (54): GATv2Conv(1024, 64, heads=8)
+      (55): GATv2Conv(1024, 64, heads=8)
+      (56): GATv2Conv(1024, 64, heads=8)
+      (57): GATv2Conv(1024, 64, heads=8)
+      (58): GATv2Conv(1024, 64, heads=8)
+      (59): GATv2Conv(1024, 64, heads=8)
+      (60): GATv2Conv(1024, 64, heads=8)
+      (61): GATv2Conv(1024, 64, heads=8)
+      (62): GATv2Conv(1024, 64, heads=8)
+      (63): GATv2Conv(1024, 64, heads=8)
+      (64): GATv2Conv(1024, 64, heads=8)
+      (65): GATv2Conv(1024, 64, heads=8)
+      (66): GATv2Conv(1024, 64, heads=8)
+      (67): GATv2Conv(1024, 64, heads=8)
+      (68): GATv2Conv(1024, 64, heads=8)
+      (69): GATv2Conv(1024, 64, heads=8)
+      (70): GATv2Conv(1024, 64, heads=8)
+      (71): GATv2Conv(1024, 64, heads=8)
+      (72): GATv2Conv(1024, 64, heads=8)
+      (73): GATv2Conv(1024, 64, heads=8)
+      (74): GATv2Conv(1024, 64, heads=8)
+      (75): GATv2Conv(1024, 64, heads=8)
+      (76): GATv2Conv(1024, 64, heads=8)
+      (77): GATv2Conv(1024, 64, heads=8)
+      (78): GATv2Conv(1024, 64, heads=8)
+      (79): GATv2Conv(1024, 64, heads=8)
+      (80): GATv2Conv(1024, 64, heads=8)
+      (81): GATv2Conv(1024, 64, heads=8)
+      (82): GATv2Conv(1024, 64, heads=8)
+      (83): GATv2Conv(1024, 64, heads=8)
+      (84): GATv2Conv(1024, 64, heads=8)
+      (85): GATv2Conv(1024, 64, heads=8)
+      (86): GATv2Conv(1024, 64, heads=8)
+      (87): GATv2Conv(1024, 64, heads=8)
+      (88): GATv2Conv(1024, 64, heads=8)
+      (89): GATv2Conv(1024, 64, heads=8)
+      (90): GATv2Conv(1024, 64, heads=8)
+      (91): GATv2Conv(1024, 64, heads=8)
+      (92): GATv2Conv(1024, 64, heads=8)
+      (93): GATv2Conv(1024, 64, heads=8)
+      (94): GATv2Conv(1024, 64, heads=8)
+      (95): GATv2Conv(1024, 64, heads=8)
+      (96): GATv2Conv(1024, 64, heads=8)
+      (97): GATv2Conv(1024, 64, heads=8)
+      (98): GATv2Conv(1024, 64, heads=8)
+      (99): GATv2Conv(1024, 64, heads=8)
+      (100): GATv2Conv(1024, 64, heads=8)
+      (101): GATv2Conv(1024, 64, heads=8)
+      (102): GATv2Conv(1024, 64, heads=8)
+      (103): GATv2Conv(1024, 64, heads=8)
+      (104): GATv2Conv(1024, 64, heads=8)
+      (105): GATv2Conv(1024, 64, heads=8)
+      (106): GATv2Conv(1024, 64, heads=8)
+      (107): GATv2Conv(1024, 64, heads=8)
+      (108): GATv2Conv(1024, 64, heads=8)
+      (109): GATv2Conv(1024, 64, heads=8)
+      (110): GATv2Conv(1024, 64, heads=8)
+      (111): GATv2Conv(1024, 64, heads=8)
+      (112): GATv2Conv(1024, 64, heads=8)
+      (113): GATv2Conv(1024, 64, heads=8)
+      (114): GATv2Conv(1024, 64, heads=8)
+      (115): GATv2Conv(1024, 64, heads=8)
+      (116): GATv2Conv(1024, 64, heads=8)
+      (117): GATv2Conv(1024, 64, heads=8)
+      (118): GATv2Conv(1024, 64, heads=8)
+      (119): GATv2Conv(1024, 64, heads=8)
+      (120): GATv2Conv(1024, 64, heads=8)
+      (121): GATv2Conv(1024, 64, heads=8)
+      (122): GATv2Conv(1024, 64, heads=8)
+      (123): GATv2Conv(1024, 64, heads=8)
+      (124): GATv2Conv(1024, 64, heads=8)
+      (125): GATv2Conv(1024, 64, heads=8)
+      (126): GATv2Conv(1024, 64, heads=8)
+      (127): GATv2Conv(1024, 64, heads=8)
+      (128): GATv2Conv(1024, 64, heads=8)
+      (129): GATv2Conv(1024, 64, heads=8)
+      (130): GATv2Conv(1024, 64, heads=8)
+      (131): GATv2Conv(1024, 64, heads=8)
+      (132): GATv2Conv(1024, 64, heads=8)
+      (133): GATv2Conv(1024, 64, heads=8)
+      (134): GATv2Conv(1024, 64, heads=8)
+      (135): GATv2Conv(1024, 64, heads=8)
+      (136): GATv2Conv(1024, 64, heads=8)
+      (137): GATv2Conv(1024, 64, heads=8)
+      (138): GATv2Conv(1024, 64, heads=8)
+      (139): GATv2Conv(1024, 64, heads=8)
+      (140): GATv2Conv(1024, 64, heads=8)
+      (141): GATv2Conv(1024, 64, heads=8)
+      (142): GATv2Conv(1024, 64, heads=8)
+      (143): GATv2Conv(1024, 64, heads=8)
+      (144): GATv2Conv(1024, 64, heads=8)
+      (145): GATv2Conv(1024, 64, heads=8)
+      (146): GATv2Conv(1024, 64, heads=8)
+      (147): GATv2Conv(1024, 64, heads=8)
+      (148): GATv2Conv(1024, 64, heads=8)
+      (149): GATv2Conv(1024, 64, heads=8)
+      (150): GATv2Conv(1024, 64, heads=8)
+      (151): GATv2Conv(1024, 64, heads=8)
+      (152): GATv2Conv(1024, 64, heads=8)
+      (153): GATv2Conv(1024, 64, heads=8)
+      (154): GATv2Conv(1024, 64, heads=8)
+      (155): GATv2Conv(1024, 64, heads=8)
+    )
+    (mg_conv_in): GATv2Conv(1024, 64, heads=8)
+    (mg_conv_out): GATv2Conv(512, 64, heads=8)
+  )
+  (conv1_down): PPIConv(
+    (ppi_w): ModuleList(
+      (0): GATv2Conv(512, 64, heads=8)
+      (1): GATv2Conv(512, 64, heads=8)
+      (2): GATv2Conv(512, 64, heads=8)
+      (3): GATv2Conv(512, 64, heads=8)
+      (4): GATv2Conv(512, 64, heads=8)
+      (5): GATv2Conv(512, 64, heads=8)
+      (6): GATv2Conv(512, 64, heads=8)
+      (7): GATv2Conv(512, 64, heads=8)
+      (8): GATv2Conv(512, 64, heads=8)
+      (9): GATv2Conv(512, 64, heads=8)
+      (10): GATv2Conv(512, 64, heads=8)
+      (11): GATv2Conv(512, 64, heads=8)
+      (12): GATv2Conv(512, 64, heads=8)
+      (13): GATv2Conv(512, 64, heads=8)
+      (14): GATv2Conv(512, 64, heads=8)
+      (15): GATv2Conv(512, 64, heads=8)
+      (16): GATv2Conv(512, 64, heads=8)
+      (17): GATv2Conv(512, 64, heads=8)
+      (18): GATv2Conv(512, 64, heads=8)
+      (19): GATv2Conv(512, 64, heads=8)
+      (20): GATv2Conv(512, 64, heads=8)
+      (21): GATv2Conv(512, 64, heads=8)
+      (22): GATv2Conv(512, 64, heads=8)
+      (23): GATv2Conv(512, 64, heads=8)
+      (24): GATv2Conv(512, 64, heads=8)
+      (25): GATv2Conv(512, 64, heads=8)
+      (26): GATv2Conv(512, 64, heads=8)
+      (27): GATv2Conv(512, 64, heads=8)
+      (28): GATv2Conv(512, 64, heads=8)
+      (29): GATv2Conv(512, 64, heads=8)
+      (30): GATv2Conv(512, 64, heads=8)
+      (31): GATv2Conv(512, 64, heads=8)
+      (32): GATv2Conv(512, 64, heads=8)
+      (33): GATv2Conv(512, 64, heads=8)
+      (34): GATv2Conv(512, 64, heads=8)
+      (35): GATv2Conv(512, 64, heads=8)
+      (36): GATv2Conv(512, 64, heads=8)
+      (37): GATv2Conv(512, 64, heads=8)
+      (38): GATv2Conv(512, 64, heads=8)
+      (39): GATv2Conv(512, 64, heads=8)
+      (40): GATv2Conv(512, 64, heads=8)
+      (41): GATv2Conv(512, 64, heads=8)
+      (42): GATv2Conv(512, 64, heads=8)
+      (43): GATv2Conv(512, 64, heads=8)
+      (44): GATv2Conv(512, 64, heads=8)
+      (45): GATv2Conv(512, 64, heads=8)
+      (46): GATv2Conv(512, 64, heads=8)
+      (47): GATv2Conv(512, 64, heads=8)
+      (48): GATv2Conv(512, 64, heads=8)
+      (49): GATv2Conv(512, 64, heads=8)
+      (50): GATv2Conv(512, 64, heads=8)
+      (51): GATv2Conv(512, 64, heads=8)
+      (52): GATv2Conv(512, 64, heads=8)
+      (53): GATv2Conv(512, 64, heads=8)
+      (54): GATv2Conv(512, 64, heads=8)
+      (55): GATv2Conv(512, 64, heads=8)
+      (56): GATv2Conv(512, 64, heads=8)
+      (57): GATv2Conv(512, 64, heads=8)
+      (58): GATv2Conv(512, 64, heads=8)
+      (59): GATv2Conv(512, 64, heads=8)
+      (60): GATv2Conv(512, 64, heads=8)
+      (61): GATv2Conv(512, 64, heads=8)
+      (62): GATv2Conv(512, 64, heads=8)
+      (63): GATv2Conv(512, 64, heads=8)
+      (64): GATv2Conv(512, 64, heads=8)
+      (65): GATv2Conv(512, 64, heads=8)
+      (66): GATv2Conv(512, 64, heads=8)
+      (67): GATv2Conv(512, 64, heads=8)
+      (68): GATv2Conv(512, 64, heads=8)
+      (69): GATv2Conv(512, 64, heads=8)
+      (70): GATv2Conv(512, 64, heads=8)
+      (71): GATv2Conv(512, 64, heads=8)
+      (72): GATv2Conv(512, 64, heads=8)
+      (73): GATv2Conv(512, 64, heads=8)
+      (74): GATv2Conv(512, 64, heads=8)
+      (75): GATv2Conv(512, 64, heads=8)
+      (76): GATv2Conv(512, 64, heads=8)
+      (77): GATv2Conv(512, 64, heads=8)
+      (78): GATv2Conv(512, 64, heads=8)
+      (79): GATv2Conv(512, 64, heads=8)
+      (80): GATv2Conv(512, 64, heads=8)
+      (81): GATv2Conv(512, 64, heads=8)
+      (82): GATv2Conv(512, 64, heads=8)
+      (83): GATv2Conv(512, 64, heads=8)
+      (84): GATv2Conv(512, 64, heads=8)
+      (85): GATv2Conv(512, 64, heads=8)
+      (86): GATv2Conv(512, 64, heads=8)
+      (87): GATv2Conv(512, 64, heads=8)
+      (88): GATv2Conv(512, 64, heads=8)
+      (89): GATv2Conv(512, 64, heads=8)
+      (90): GATv2Conv(512, 64, heads=8)
+      (91): GATv2Conv(512, 64, heads=8)
+      (92): GATv2Conv(512, 64, heads=8)
+      (93): GATv2Conv(512, 64, heads=8)
+      (94): GATv2Conv(512, 64, heads=8)
+      (95): GATv2Conv(512, 64, heads=8)
+      (96): GATv2Conv(512, 64, heads=8)
+      (97): GATv2Conv(512, 64, heads=8)
+      (98): GATv2Conv(512, 64, heads=8)
+      (99): GATv2Conv(512, 64, heads=8)
+      (100): GATv2Conv(512, 64, heads=8)
+      (101): GATv2Conv(512, 64, heads=8)
+      (102): GATv2Conv(512, 64, heads=8)
+      (103): GATv2Conv(512, 64, heads=8)
+      (104): GATv2Conv(512, 64, heads=8)
+      (105): GATv2Conv(512, 64, heads=8)
+      (106): GATv2Conv(512, 64, heads=8)
+      (107): GATv2Conv(512, 64, heads=8)
+      (108): GATv2Conv(512, 64, heads=8)
+      (109): GATv2Conv(512, 64, heads=8)
+      (110): GATv2Conv(512, 64, heads=8)
+      (111): GATv2Conv(512, 64, heads=8)
+      (112): GATv2Conv(512, 64, heads=8)
+      (113): GATv2Conv(512, 64, heads=8)
+      (114): GATv2Conv(512, 64, heads=8)
+      (115): GATv2Conv(512, 64, heads=8)
+      (116): GATv2Conv(512, 64, heads=8)
+      (117): GATv2Conv(512, 64, heads=8)
+      (118): GATv2Conv(512, 64, heads=8)
+      (119): GATv2Conv(512, 64, heads=8)
+      (120): GATv2Conv(512, 64, heads=8)
+      (121): GATv2Conv(512, 64, heads=8)
+      (122): GATv2Conv(512, 64, heads=8)
+      (123): GATv2Conv(512, 64, heads=8)
+      (124): GATv2Conv(512, 64, heads=8)
+      (125): GATv2Conv(512, 64, heads=8)
+      (126): GATv2Conv(512, 64, heads=8)
+      (127): GATv2Conv(512, 64, heads=8)
+      (128): GATv2Conv(512, 64, heads=8)
+      (129): GATv2Conv(512, 64, heads=8)
+      (130): GATv2Conv(512, 64, heads=8)
+      (131): GATv2Conv(512, 64, heads=8)
+      (132): GATv2Conv(512, 64, heads=8)
+      (133): GATv2Conv(512, 64, heads=8)
+      (134): GATv2Conv(512, 64, heads=8)
+      (135): GATv2Conv(512, 64, heads=8)
+      (136): GATv2Conv(512, 64, heads=8)
+      (137): GATv2Conv(512, 64, heads=8)
+      (138): GATv2Conv(512, 64, heads=8)
+      (139): GATv2Conv(512, 64, heads=8)
+      (140): GATv2Conv(512, 64, heads=8)
+      (141): GATv2Conv(512, 64, heads=8)
+      (142): GATv2Conv(512, 64, heads=8)
+      (143): GATv2Conv(512, 64, heads=8)
+      (144): GATv2Conv(512, 64, heads=8)
+      (145): GATv2Conv(512, 64, heads=8)
+      (146): GATv2Conv(512, 64, heads=8)
+      (147): GATv2Conv(512, 64, heads=8)
+      (148): GATv2Conv(512, 64, heads=8)
+      (149): GATv2Conv(512, 64, heads=8)
+      (150): GATv2Conv(512, 64, heads=8)
+      (151): GATv2Conv(512, 64, heads=8)
+      (152): GATv2Conv(512, 64, heads=8)
+      (153): GATv2Conv(512, 64, heads=8)
+      (154): GATv2Conv(512, 64, heads=8)
+      (155): GATv2Conv(512, 64, heads=8)
+    )
+  )
+  (layer_norm1): LayerNorm(512, mode=graph)
+  (batch_norm1): BatchNorm(512)
+  (conv2_up): PCTConv(
+    (ppi_w): ModuleList(
+      (0): GATv2Conv(512, 16, heads=8)
+      (1): GATv2Conv(512, 16, heads=8)
+      (2): GATv2Conv(512, 16, heads=8)
+      (3): GATv2Conv(512, 16, heads=8)
+      (4): GATv2Conv(512, 16, heads=8)
+      (5): GATv2Conv(512, 16, heads=8)
+      (6): GATv2Conv(512, 16, heads=8)
+      (7): GATv2Conv(512, 16, heads=8)
+      (8): GATv2Conv(512, 16, heads=8)
+      (9): GATv2Conv(512, 16, heads=8)
+      (10): GATv2Conv(512, 16, heads=8)
+      (11): GATv2Conv(512, 16, heads=8)
+      (12): GATv2Conv(512, 16, heads=8)
+      (13): GATv2Conv(512, 16, heads=8)
+      (14): GATv2Conv(512, 16, heads=8)
+      (15): GATv2Conv(512, 16, heads=8)
+      (16): GATv2Conv(512, 16, heads=8)
+      (17): GATv2Conv(512, 16, heads=8)
+      (18): GATv2Conv(512, 16, heads=8)
+      (19): GATv2Conv(512, 16, heads=8)
+      (20): GATv2Conv(512, 16, heads=8)
+      (21): GATv2Conv(512, 16, heads=8)
+      (22): GATv2Conv(512, 16, heads=8)
+      (23): GATv2Conv(512, 16, heads=8)
+      (24): GATv2Conv(512, 16, heads=8)
+      (25): GATv2Conv(512, 16, heads=8)
+      (26): GATv2Conv(512, 16, heads=8)
+      (27): GATv2Conv(512, 16, heads=8)
+      (28): GATv2Conv(512, 16, heads=8)
+      (29): GATv2Conv(512, 16, heads=8)
+      (30): GATv2Conv(512, 16, heads=8)
+      (31): GATv2Conv(512, 16, heads=8)
+      (32): GATv2Conv(512, 16, heads=8)
+      (33): GATv2Conv(512, 16, heads=8)
+      (34): GATv2Conv(512, 16, heads=8)
+      (35): GATv2Conv(512, 16, heads=8)
+      (36): GATv2Conv(512, 16, heads=8)
+      (37): GATv2Conv(512, 16, heads=8)
+      (38): GATv2Conv(512, 16, heads=8)
+      (39): GATv2Conv(512, 16, heads=8)
+      (40): GATv2Conv(512, 16, heads=8)
+      (41): GATv2Conv(512, 16, heads=8)
+      (42): GATv2Conv(512, 16, heads=8)
+      (43): GATv2Conv(512, 16, heads=8)
+      (44): GATv2Conv(512, 16, heads=8)
+      (45): GATv2Conv(512, 16, heads=8)
+      (46): GATv2Conv(512, 16, heads=8)
+      (47): GATv2Conv(512, 16, heads=8)
+      (48): GATv2Conv(512, 16, heads=8)
+      (49): GATv2Conv(512, 16, heads=8)
+      (50): GATv2Conv(512, 16, heads=8)
+      (51): GATv2Conv(512, 16, heads=8)
+      (52): GATv2Conv(512, 16, heads=8)
+      (53): GATv2Conv(512, 16, heads=8)
+      (54): GATv2Conv(512, 16, heads=8)
+      (55): GATv2Conv(512, 16, heads=8)
+      (56): GATv2Conv(512, 16, heads=8)
+      (57): GATv2Conv(512, 16, heads=8)
+      (58): GATv2Conv(512, 16, heads=8)
+      (59): GATv2Conv(512, 16, heads=8)
+      (60): GATv2Conv(512, 16, heads=8)
+      (61): GATv2Conv(512, 16, heads=8)
+      (62): GATv2Conv(512, 16, heads=8)
+      (63): GATv2Conv(512, 16, heads=8)
+      (64): GATv2Conv(512, 16, heads=8)
+      (65): GATv2Conv(512, 16, heads=8)
+      (66): GATv2Conv(512, 16, heads=8)
+      (67): GATv2Conv(512, 16, heads=8)
+      (68): GATv2Conv(512, 16, heads=8)
+      (69): GATv2Conv(512, 16, heads=8)
+      (70): GATv2Conv(512, 16, heads=8)
+      (71): GATv2Conv(512, 16, heads=8)
+      (72): GATv2Conv(512, 16, heads=8)
+      (73): GATv2Conv(512, 16, heads=8)
+      (74): GATv2Conv(512, 16, heads=8)
+      (75): GATv2Conv(512, 16, heads=8)
+      (76): GATv2Conv(512, 16, heads=8)
+      (77): GATv2Conv(512, 16, heads=8)
+      (78): GATv2Conv(512, 16, heads=8)
+      (79): GATv2Conv(512, 16, heads=8)
+      (80): GATv2Conv(512, 16, heads=8)
+      (81): GATv2Conv(512, 16, heads=8)
+      (82): GATv2Conv(512, 16, heads=8)
+      (83): GATv2Conv(512, 16, heads=8)
+      (84): GATv2Conv(512, 16, heads=8)
+      (85): GATv2Conv(512, 16, heads=8)
+      (86): GATv2Conv(512, 16, heads=8)
+      (87): GATv2Conv(512, 16, heads=8)
+      (88): GATv2Conv(512, 16, heads=8)
+      (89): GATv2Conv(512, 16, heads=8)
+      (90): GATv2Conv(512, 16, heads=8)
+      (91): GATv2Conv(512, 16, heads=8)
+      (92): GATv2Conv(512, 16, heads=8)
+      (93): GATv2Conv(512, 16, heads=8)
+      (94): GATv2Conv(512, 16, heads=8)
+      (95): GATv2Conv(512, 16, heads=8)
+      (96): GATv2Conv(512, 16, heads=8)
+      (97): GATv2Conv(512, 16, heads=8)
+      (98): GATv2Conv(512, 16, heads=8)
+      (99): GATv2Conv(512, 16, heads=8)
+      (100): GATv2Conv(512, 16, heads=8)
+      (101): GATv2Conv(512, 16, heads=8)
+      (102): GATv2Conv(512, 16, heads=8)
+      (103): GATv2Conv(512, 16, heads=8)
+      (104): GATv2Conv(512, 16, heads=8)
+      (105): GATv2Conv(512, 16, heads=8)
+      (106): GATv2Conv(512, 16, heads=8)
+      (107): GATv2Conv(512, 16, heads=8)
+      (108): GATv2Conv(512, 16, heads=8)
+      (109): GATv2Conv(512, 16, heads=8)
+      (110): GATv2Conv(512, 16, heads=8)
+      (111): GATv2Conv(512, 16, heads=8)
+      (112): GATv2Conv(512, 16, heads=8)
+      (113): GATv2Conv(512, 16, heads=8)
+      (114): GATv2Conv(512, 16, heads=8)
+      (115): GATv2Conv(512, 16, heads=8)
+      (116): GATv2Conv(512, 16, heads=8)
+      (117): GATv2Conv(512, 16, heads=8)
+      (118): GATv2Conv(512, 16, heads=8)
+      (119): GATv2Conv(512, 16, heads=8)
+      (120): GATv2Conv(512, 16, heads=8)
+      (121): GATv2Conv(512, 16, heads=8)
+      (122): GATv2Conv(512, 16, heads=8)
+      (123): GATv2Conv(512, 16, heads=8)
+      (124): GATv2Conv(512, 16, heads=8)
+      (125): GATv2Conv(512, 16, heads=8)
+      (126): GATv2Conv(512, 16, heads=8)
+      (127): GATv2Conv(512, 16, heads=8)
+      (128): GATv2Conv(512, 16, heads=8)
+      (129): GATv2Conv(512, 16, heads=8)
+      (130): GATv2Conv(512, 16, heads=8)
+      (131): GATv2Conv(512, 16, heads=8)
+      (132): GATv2Conv(512, 16, heads=8)
+      (133): GATv2Conv(512, 16, heads=8)
+      (134): GATv2Conv(512, 16, heads=8)
+      (135): GATv2Conv(512, 16, heads=8)
+      (136): GATv2Conv(512, 16, heads=8)
+      (137): GATv2Conv(512, 16, heads=8)
+      (138): GATv2Conv(512, 16, heads=8)
+      (139): GATv2Conv(512, 16, heads=8)
+      (140): GATv2Conv(512, 16, heads=8)
+      (141): GATv2Conv(512, 16, heads=8)
+      (142): GATv2Conv(512, 16, heads=8)
+      (143): GATv2Conv(512, 16, heads=8)
+      (144): GATv2Conv(512, 16, heads=8)
+      (145): GATv2Conv(512, 16, heads=8)
+      (146): GATv2Conv(512, 16, heads=8)
+      (147): GATv2Conv(512, 16, heads=8)
+      (148): GATv2Conv(512, 16, heads=8)
+      (149): GATv2Conv(512, 16, heads=8)
+      (150): GATv2Conv(512, 16, heads=8)
+      (151): GATv2Conv(512, 16, heads=8)
+      (152): GATv2Conv(512, 16, heads=8)
+      (153): GATv2Conv(512, 16, heads=8)
+      (154): GATv2Conv(512, 16, heads=8)
+      (155): GATv2Conv(512, 16, heads=8)
+    )
+    (mg_conv_in): GATv2Conv(512, 16, heads=8)
+    (mg_conv_out): GATv2Conv(128, 16, heads=8)
+  )
+  (conv2_down): PPIConv(
+    (ppi_w): ModuleList(
+      (0): GATv2Conv(128, 16, heads=8)
+      (1): GATv2Conv(128, 16, heads=8)
+      (2): GATv2Conv(128, 16, heads=8)
+      (3): GATv2Conv(128, 16, heads=8)
+      (4): GATv2Conv(128, 16, heads=8)
+      (5): GATv2Conv(128, 16, heads=8)
+      (6): GATv2Conv(128, 16, heads=8)
+      (7): GATv2Conv(128, 16, heads=8)
+      (8): GATv2Conv(128, 16, heads=8)
+      (9): GATv2Conv(128, 16, heads=8)
+      (10): GATv2Conv(128, 16, heads=8)
+      (11): GATv2Conv(128, 16, heads=8)
+      (12): GATv2Conv(128, 16, heads=8)
+      (13): GATv2Conv(128, 16, heads=8)
+      (14): GATv2Conv(128, 16, heads=8)
+      (15): GATv2Conv(128, 16, heads=8)
+      (16): GATv2Conv(128, 16, heads=8)
+      (17): GATv2Conv(128, 16, heads=8)
+      (18): GATv2Conv(128, 16, heads=8)
+      (19): GATv2Conv(128, 16, heads=8)
+      (20): GATv2Conv(128, 16, heads=8)
+      (21): GATv2Conv(128, 16, heads=8)
+      (22): GATv2Conv(128, 16, heads=8)
+      (23): GATv2Conv(128, 16, heads=8)
+      (24): GATv2Conv(128, 16, heads=8)
+      (25): GATv2Conv(128, 16, heads=8)
+      (26): GATv2Conv(128, 16, heads=8)
+      (27): GATv2Conv(128, 16, heads=8)
+      (28): GATv2Conv(128, 16, heads=8)
+      (29): GATv2Conv(128, 16, heads=8)
+      (30): GATv2Conv(128, 16, heads=8)
+      (31): GATv2Conv(128, 16, heads=8)
+      (32): GATv2Conv(128, 16, heads=8)
+      (33): GATv2Conv(128, 16, heads=8)
+      (34): GATv2Conv(128, 16, heads=8)
+      (35): GATv2Conv(128, 16, heads=8)
+      (36): GATv2Conv(128, 16, heads=8)
+      (37): GATv2Conv(128, 16, heads=8)
+      (38): GATv2Conv(128, 16, heads=8)
+      (39): GATv2Conv(128, 16, heads=8)
+      (40): GATv2Conv(128, 16, heads=8)
+      (41): GATv2Conv(128, 16, heads=8)
+      (42): GATv2Conv(128, 16, heads=8)
+      (43): GATv2Conv(128, 16, heads=8)
+      (44): GATv2Conv(128, 16, heads=8)
+      (45): GATv2Conv(128, 16, heads=8)
+      (46): GATv2Conv(128, 16, heads=8)
+      (47): GATv2Conv(128, 16, heads=8)
+      (48): GATv2Conv(128, 16, heads=8)
+      (49): GATv2Conv(128, 16, heads=8)
+      (50): GATv2Conv(128, 16, heads=8)
+      (51): GATv2Conv(128, 16, heads=8)
+      (52): GATv2Conv(128, 16, heads=8)
+      (53): GATv2Conv(128, 16, heads=8)
+      (54): GATv2Conv(128, 16, heads=8)
+      (55): GATv2Conv(128, 16, heads=8)
+      (56): GATv2Conv(128, 16, heads=8)
+      (57): GATv2Conv(128, 16, heads=8)
+      (58): GATv2Conv(128, 16, heads=8)
+      (59): GATv2Conv(128, 16, heads=8)
+      (60): GATv2Conv(128, 16, heads=8)
+      (61): GATv2Conv(128, 16, heads=8)
+      (62): GATv2Conv(128, 16, heads=8)
+      (63): GATv2Conv(128, 16, heads=8)
+      (64): GATv2Conv(128, 16, heads=8)
+      (65): GATv2Conv(128, 16, heads=8)
+      (66): GATv2Conv(128, 16, heads=8)
+      (67): GATv2Conv(128, 16, heads=8)
+      (68): GATv2Conv(128, 16, heads=8)
+      (69): GATv2Conv(128, 16, heads=8)
+      (70): GATv2Conv(128, 16, heads=8)
+      (71): GATv2Conv(128, 16, heads=8)
+      (72): GATv2Conv(128, 16, heads=8)
+      (73): GATv2Conv(128, 16, heads=8)
+      (74): GATv2Conv(128, 16, heads=8)
+      (75): GATv2Conv(128, 16, heads=8)
+      (76): GATv2Conv(128, 16, heads=8)
+      (77): GATv2Conv(128, 16, heads=8)
+      (78): GATv2Conv(128, 16, heads=8)
+      (79): GATv2Conv(128, 16, heads=8)
+      (80): GATv2Conv(128, 16, heads=8)
+      (81): GATv2Conv(128, 16, heads=8)
+      (82): GATv2Conv(128, 16, heads=8)
+      (83): GATv2Conv(128, 16, heads=8)
+      (84): GATv2Conv(128, 16, heads=8)
+      (85): GATv2Conv(128, 16, heads=8)
+      (86): GATv2Conv(128, 16, heads=8)
+      (87): GATv2Conv(128, 16, heads=8)
+      (88): GATv2Conv(128, 16, heads=8)
+      (89): GATv2Conv(128, 16, heads=8)
+      (90): GATv2Conv(128, 16, heads=8)
+      (91): GATv2Conv(128, 16, heads=8)
+      (92): GATv2Conv(128, 16, heads=8)
+      (93): GATv2Conv(128, 16, heads=8)
+      (94): GATv2Conv(128, 16, heads=8)
+      (95): GATv2Conv(128, 16, heads=8)
+      (96): GATv2Conv(128, 16, heads=8)
+      (97): GATv2Conv(128, 16, heads=8)
+      (98): GATv2Conv(128, 16, heads=8)
+      (99): GATv2Conv(128, 16, heads=8)
+      (100): GATv2Conv(128, 16, heads=8)
+      (101): GATv2Conv(128, 16, heads=8)
+      (102): GATv2Conv(128, 16, heads=8)
+      (103): GATv2Conv(128, 16, heads=8)
+      (104): GATv2Conv(128, 16, heads=8)
+      (105): GATv2Conv(128, 16, heads=8)
+      (106): GATv2Conv(128, 16, heads=8)
+      (107): GATv2Conv(128, 16, heads=8)
+      (108): GATv2Conv(128, 16, heads=8)
+      (109): GATv2Conv(128, 16, heads=8)
+      (110): GATv2Conv(128, 16, heads=8)
+      (111): GATv2Conv(128, 16, heads=8)
+      (112): GATv2Conv(128, 16, heads=8)
+      (113): GATv2Conv(128, 16, heads=8)
+      (114): GATv2Conv(128, 16, heads=8)
+      (115): GATv2Conv(128, 16, heads=8)
+      (116): GATv2Conv(128, 16, heads=8)
+      (117): GATv2Conv(128, 16, heads=8)
+      (118): GATv2Conv(128, 16, heads=8)
+      (119): GATv2Conv(128, 16, heads=8)
+      (120): GATv2Conv(128, 16, heads=8)
+      (121): GATv2Conv(128, 16, heads=8)
+      (122): GATv2Conv(128, 16, heads=8)
+      (123): GATv2Conv(128, 16, heads=8)
+      (124): GATv2Conv(128, 16, heads=8)
+      (125): GATv2Conv(128, 16, heads=8)
+      (126): GATv2Conv(128, 16, heads=8)
+      (127): GATv2Conv(128, 16, heads=8)
+      (128): GATv2Conv(128, 16, heads=8)
+      (129): GATv2Conv(128, 16, heads=8)
+      (130): GATv2Conv(128, 16, heads=8)
+      (131): GATv2Conv(128, 16, heads=8)
+      (132): GATv2Conv(128, 16, heads=8)
+      (133): GATv2Conv(128, 16, heads=8)
+      (134): GATv2Conv(128, 16, heads=8)
+      (135): GATv2Conv(128, 16, heads=8)
+      (136): GATv2Conv(128, 16, heads=8)
+      (137): GATv2Conv(128, 16, heads=8)
+      (138): GATv2Conv(128, 16, heads=8)
+      (139): GATv2Conv(128, 16, heads=8)
+      (140): GATv2Conv(128, 16, heads=8)
+      (141): GATv2Conv(128, 16, heads=8)
+      (142): GATv2Conv(128, 16, heads=8)
+      (143): GATv2Conv(128, 16, heads=8)
+      (144): GATv2Conv(128, 16, heads=8)
+      (145): GATv2Conv(128, 16, heads=8)
+      (146): GATv2Conv(128, 16, heads=8)
+      (147): GATv2Conv(128, 16, heads=8)
+      (148): GATv2Conv(128, 16, heads=8)
+      (149): GATv2Conv(128, 16, heads=8)
+      (150): GATv2Conv(128, 16, heads=8)
+      (151): GATv2Conv(128, 16, heads=8)
+      (152): GATv2Conv(128, 16, heads=8)
+      (153): GATv2Conv(128, 16, heads=8)
+      (154): GATv2Conv(128, 16, heads=8)
+      (155): GATv2Conv(128, 16, heads=8)
+    )
+  )
+)
+Training batch 1
+Link Prediction:  tensor(15.8471, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.4170, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(15.3657, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.2960, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(17.3565, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.5949, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(14.7423, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.6563, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(15.1045, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.7586, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(15.4889, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9009, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(14.8262, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.7082, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(18.3066, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.1482, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(16.2531, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.7153, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(17.1832, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0058, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(16.2728, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9722, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(15.1967, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.6482, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(15.4589, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.8085, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(16.8840, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.2111, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(18.8913, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.1228, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(18.3585, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.6306, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.9019274567292223 AP 0.9582644999023313 ACC 0.8805477227036124 F1 0.8805477227036126
+Validation Metrics: ROC 0.6256508387656037 AP 0.7601225771225121 ACC 0.6661919417852553 F1 0.6661919417852553
+Epoch: 0001	train_loss = 16.92398	val_roc = 0.62565	val_ap = 0.76012	val_f1 = 0.66619	val_acc = 0.66619
+Training batch 1
+Link Prediction:  tensor(15.5707, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9366, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(17.1612, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.6435, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(18.4439, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9730, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(21.0003, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0964, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(15.4330, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9851, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(17.1699, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.1723, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(18.4084, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0166, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(17.1242, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0043, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(15.3200, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.2308, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(15.0046, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0730, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(16.4599, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.8090, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(16.0331, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9170, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(14.5882, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.2414, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(15.2481, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.1078, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(16.2165, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9228, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(15.7774, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.3161, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.9057031313987255 AP 0.9603141632859353 ACC 0.8848172581321132 F1 0.8848172581321132
+Validation Metrics: ROC 0.6278194318063636 AP 0.7642490088113297 ACC 0.6732634973291787 F1 0.6732634973291787
+Epoch: 0002	train_loss = 17.15891	val_roc = 0.62782	val_ap = 0.76425	val_f1 = 0.67326	val_acc = 0.67326
+Training batch 1
+Link Prediction:  tensor(15.6966, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.7973, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(15.1914, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.8007, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(15.8336, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0437, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(17.5565, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0175, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(16.7911, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.1196, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(17.0947, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0348, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(16.5198, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.4170, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(17.1309, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9693, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(18.2807, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.4001, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(16.5042, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.0201, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(15.3402, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9331, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(14.3940, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.1868, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(16.1980, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.7945, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(15.4197, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.9793, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(18.9793, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.2348, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(15.1847, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(6.3458, device='cuda:0', grad_fn=<DivBackward0>)
+
+Training Metrics: ROC 0.9033979323928956 AP 0.9599741814855837 ACC 0.8833950967179172 F1 0.8833950967179172
+Validation Metrics: ROC 0.6306443340215849 AP 0.7680383287166889 ACC 0.6785072234303156 F1 0.6785072234303156
+Epoch: 0003	train_loss = 16.98930	val_roc = 0.63064	val_ap = 0.76804	val_f1 = 0.67851	val_acc = 0.67851
+Training batch 1
+Link Prediction:  tensor(20.8133, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.2807, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(18.3498, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.2848, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(20.3098, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.0130, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(18.0744, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.2632, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(18.9564, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7174, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(17.7509, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.8644, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(18.0957, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7381, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(20.2206, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6921, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(20.6364, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7931, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(19.9256, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4957, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(22.5629, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5865, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(19.7434, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5612, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(21.8196, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(5.0339, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(22.9885, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.8096, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(21.6384, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6214, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(19.2430, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.8910, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8403622932719977 AP 0.9325910381451694 ACC 0.8480867454131127 F1 0.8480867454131127
+Validation Metrics: ROC 0.6334519174934675 AP 0.7676788535330714 ACC 0.6722159317011898 F1 0.6722159317011898
+Epoch: 0004	train_loss = 20.54572	val_roc = 0.63345	val_ap = 0.76768	val_f1 = 0.67222	val_acc = 0.67222
+Training batch 1
+Link Prediction:  tensor(20.2536, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7934, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(19.1304, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7775, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(19.5798, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5990, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(18.9400, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3913, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(23.5253, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5259, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(18.8115, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3636, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(18.5303, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2377, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(20.0557, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.0544, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(19.5356, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2820, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(19.9791, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.0007, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(19.5393, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2680, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(18.7948, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.0168, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(19.2776, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.0717, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(19.3239, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(3.9120, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(19.1222, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(3.9807, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(19.7750, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1091, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8353086849933743 AP 0.9292198296269372 ACC 0.8398685113923987 F1 0.8398685113923987
+Validation Metrics: ROC 0.6225582531511346 AP 0.755565470339613 ACC 0.6671549325787881 F1 0.6671549325787881
+Epoch: 0005	train_loss = 20.06001	val_roc = 0.62256	val_ap = 0.75557	val_f1 = 0.66715	val_acc = 0.66715
+Training batch 1
+Link Prediction:  tensor(18.1888, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3504, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(21.8457, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1795, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(22.5897, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3800, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(19.5924, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4316, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(19.7696, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5420, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(19.5666, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5588, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(18.4278, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4627, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(18.6083, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5663, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(19.0361, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5599, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(21.0745, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4635, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(21.9180, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5393, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(18.4486, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4047, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(20.6377, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3172, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(19.0223, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3632, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(18.2639, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1681, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(19.6889, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2230, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8351633840345177 AP 0.9304458480873631 ACC 0.8415598513606252 F1 0.8415598513606252
+Validation Metrics: ROC 0.6243095285966923 AP 0.7609542404272462 ACC 0.6699071833973466 F1 0.6699071833973466
+Epoch: 0006	train_loss = 20.22646	val_roc = 0.62431	val_ap = 0.76095	val_f1 = 0.66991	val_acc = 0.66991
+Training batch 1
+Link Prediction:  tensor(20.3438, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6002, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(20.0222, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(3.9946, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(20.7965, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.0397, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(17.8266, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.0571, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(18.9850, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.0802, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(18.8513, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3632, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(20.2007, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2182, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(18.6331, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5812, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(18.4921, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5134, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(20.8046, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2262, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(17.9083, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2870, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(19.6201, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2790, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(18.5066, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2902, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(19.7616, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3773, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(18.4142, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5661, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(18.4057, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4088, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8389063087002321 AP 0.9321868439122502 ACC 0.8426657821840985 F1 0.8426657821840985
+Validation Metrics: ROC 0.6239985245147488 AP 0.7602615041740912 ACC 0.6684309154953151 F1 0.6684309154953151
+Epoch: 0007	train_loss = 19.64963	val_roc = 0.62400	val_ap = 0.76026	val_f1 = 0.66843	val_acc = 0.66843
+Training batch 1
+Link Prediction:  tensor(19.1805, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2961, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(18.7413, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4607, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(18.4075, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3019, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(20.4494, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3584, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(19.1663, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2462, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(18.2646, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2238, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(18.6855, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3987, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(19.2749, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1546, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+
+Link Prediction:  tensor(18.7291, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2149, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(19.2313, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1777, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(18.5054, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1570, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(18.3456, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3440, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(20.8376, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4915, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(18.2630, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5360, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(19.0094, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5500, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(20.2282, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6705, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8369913426029961 AP 0.9330133389381172 ACC 0.8420978054984931 F1 0.8420978054984931
+Validation Metrics: ROC 0.6325677956403798 AP 0.7695935835969262 ACC 0.6738474344392403 F1 0.6738474344392403
+Epoch: 0008	train_loss = 19.51613	val_roc = 0.63257	val_ap = 0.76959	val_f1 = 0.67385	val_acc = 0.67385
+Training batch 1
+Link Prediction:  tensor(18.6275, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6140, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(18.8893, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7705, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(18.7251, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7975, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(18.7070, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5509, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(19.7689, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4970, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(18.3599, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6616, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(19.7946, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6017, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(20.6922, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3833, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(18.5026, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6003, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(17.6367, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3960, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(19.5038, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1826, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(17.7545, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3207, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(19.5617, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3617, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(19.2820, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4685, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(19.5097, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3497, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(18.6308, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3250, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8406313287923003 AP 0.9344169616378124 ACC 0.8464792219659096 F1 0.8464792219659096
+Validation Metrics: ROC 0.617012904191504 AP 0.7582827799509668 ACC 0.6726911242944764 F1 0.6726911242944763
+Epoch: 0009	train_loss = 19.44568	val_roc = 0.61701	val_ap = 0.75828	val_f1 = 0.67269	val_acc = 0.67269
+Training batch 1
+Link Prediction:  tensor(20.4612, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5753, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(20.3983, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3705, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(18.1934, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4206, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(18.6284, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2150, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(21.8045, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5260, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(19.5314, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7219, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(20.0156, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5324, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(19.5544, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5861, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(18.2162, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6023, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(18.1638, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3498, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(19.0322, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3515, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(19.8583, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5623, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(18.3154, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3619, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(18.9824, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3677, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(22.1882, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3786, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(19.5338, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.1592, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8402394900029312 AP 0.931452393458376 ACC 0.8430846044721644 F1 0.8430846044721644
+Validation Metrics: ROC 0.6307163184085446 AP 0.7641823903755608 ACC 0.6668044073698117 F1 0.6668044073698117
+Epoch: 0010	train_loss = 19.99181	val_roc = 0.63072	val_ap = 0.76418	val_f1 = 0.66680	val_acc = 0.66680
+Training batch 1
+Link Prediction:  tensor(19.7516, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3957, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(19.2086, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2642, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(18.8894, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3480, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(18.3726, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3915, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(21.5299, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.8693, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(19.8337, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3438, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(20.7074, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5453, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(20.1482, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7274, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(19.0940, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5882, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(19.2714, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6198, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(18.8188, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5056, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(19.9110, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6262, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(18.3329, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4366, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(18.6323, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3796, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(18.2445, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.2724, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(19.1965, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4086, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.84009291723705 AP 0.9327392257635061 ACC 0.8433117786092821 F1 0.8433117786092821
+Validation Metrics: ROC 0.6335357258395488 AP 0.7683321420511333 ACC 0.6727932966123106 F1 0.6727932966123106
+Epoch: 0011	train_loss = 19.81995	val_roc = 0.63354	val_ap = 0.76833	val_f1 = 0.67279	val_acc = 0.67279
+Training batch 1
+Link Prediction:  tensor(18.3765, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4774, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(18.3058, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7011, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(21.4287, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6269, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(17.8034, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6189, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(18.3756, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6404, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(21.0385, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7264, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(18.1070, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5530, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(19.4534, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6237, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(18.4785, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6318, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(18.5172, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6170, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(18.9561, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5566, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(19.3687, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6820, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(18.1971, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3539, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(18.3578, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4471, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(18.9728, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7248, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(19.5337, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5617, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.8429900598510268 AP 0.9345254887813923 ACC 0.8447979641649939 F1 0.8447979641649939
+Validation Metrics: ROC 0.6181504519487941 AP 0.7571066756826005 ACC 0.6706223468743063 F1 0.6706223468743063
+Epoch: 0012	train_loss = 19.41335	val_roc = 0.61815	val_ap = 0.75711	val_f1 = 0.67062	val_acc = 0.67062
+Training batch 1
+Link Prediction:  tensor(22.0361, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7050, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 2
+Link Prediction:  tensor(20.6199, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.6651, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 3
+Link Prediction:  tensor(21.0288, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5190, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 4
+Link Prediction:  tensor(18.2631, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3895, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 5
+Link Prediction:  tensor(20.4305, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4836, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 6
+Link Prediction:  tensor(18.1779, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4604, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 7
+Link Prediction:  tensor(18.2306, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4553, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 8
+Link Prediction:  tensor(18.3366, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4931, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 9
+Link Prediction:  tensor(18.5665, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4629, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 10
+Link Prediction:  tensor(18.7149, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4327, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 11
+Link Prediction:  tensor(19.1876, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5972, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 12
+Link Prediction:  tensor(20.0758, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5371, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 13
+Link Prediction:  tensor(23.6420, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.5314, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 14
+Link Prediction:  tensor(22.0957, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.7124, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 15
+Link Prediction:  tensor(18.7484, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.3094, device='cuda:0', grad_fn=<DivBackward0>)
+Training batch 16
+Link Prediction:  tensor(18.5299, device='cuda:0', grad_fn=<MulBackward0>) Center Loss:  tensor(4.4818, device='cuda:0', grad_fn=<DivBackward0>)
+Training Metrics: ROC 0.837598875625287 AP 0.9316112901138817 ACC 0.842260597799723 F1 0.842260597799723
