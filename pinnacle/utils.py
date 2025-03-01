@@ -2,8 +2,8 @@ import random
 import numpy as np
 import pandas as pd
 from collections import Counter
-import umap
-import umap.plot
+#import umap
+#import umap.plot
 from matplotlib import pyplot as plt
 import plotly.express as px
 
@@ -26,7 +26,6 @@ def calc_individual_metrics(pred, y):
     acc = accuracy_score(y, pred > 0.5)
     f1 = f1_score(y, pred > 0.5, average = 'micro')
     return roc_score, ap_score, acc, f1
-
 
 def calc_metrics(mg_pred, mg_data, ppi_preds, ppi_data):
     all_roc = []

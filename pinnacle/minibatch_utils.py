@@ -37,7 +37,9 @@ def pred_batch2dict(packed_batch: object, mg_x_ori: dict, ppi_x_ori: dict, cell_
     return ppi_data_batch, ppi_x_init, mg_x_init
 
 
-def iterate_train_batch(ppi_train_loader_dict: dict, ppi_x_ori: dict, ppi_metapaths_ori: dict, mg_x_ori: dict,  mg_metapaths_train: list, mg_data_train: dict, tissue_neighbors: dict, model: torch.nn.Module, hparams: dict, device: str, wandb: object=None, center_loss: torch.nn.Module=None, optimizer: torch.optim=None, mask_train_ori: list=None) -> tuple:
+def iterate_train_batch(ppi_train_loader_dict: dict, ppi_x_ori: dict, ppi_metapaths_ori: dict, mg_x_ori: dict,  mg_metapaths_train: list, mg_data_train: dict, 
+                        tissue_neighbors: dict, model: torch.nn.Module, hparams: dict, device: str, wandb: object=None, center_loss: torch.nn.Module=None, 
+                        optimizer: torch.optim=None, mask_train_ori: list=None) -> tuple:
     """
     Iterate batches for train. In each batch, only embeddings of nodes corresponding to the sampled edges (i.e., sampled nodes and their 2-hop neighbors) are attention-pooled to approximate the global embedding of a cell type's PPI, and used to update the node embedding in CCI. 
     
@@ -77,8 +79,8 @@ def iterate_train_batch(ppi_train_loader_dict: dict, ppi_x_ori: dict, ppi_metapa
 
         # Compute train loss
         ppi_loss, mg_loss = calc_link_pred_loss(mg_pred, mg_data_train, ppi_preds, ppi_data_batch, hparams['loss_type'])
-        link_loss = hparams['theta'] * ppi_loss + (1 - hparams['theta']) * mg_loss
-
+        #link_loss = hparams['theta'] * ppi_loss + (1 - hparams['theta']) * mg_loss
+        link_loss = hparams['theta'] * ppi_loss
         # Get embeddings
         embed = torch.cat(list(ppi_x.values())) # Protein
         centers = mg_x[0:len(ppi_x)] # Cell type

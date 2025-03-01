@@ -30,20 +30,28 @@ def read_ppi(ppi_dir):
     ppi_val = dict()
     ppi_test = dict()
 
-    for f in glob.glob(ppi_dir + "*edgelist.txt"): # Expected format of filename: <PPI_DIR>/<CONTEXT>.<suffix>
+    for f in glob.glob(ppi_dir + "*.txt"): # Expected format of filename: <PPI_DIR>/<CONTEXT>.<suffix>
 
         # Parse name of context
         context = f.split(ppi_dir)[1].split(".")[0].replace("_edgelist", "")
-        context = "cluster:" + context.replace("_", " ")
+        context = context.replace("_", " ") # xiaochen's modification
 
-        # Read edgelist
-        ppi = nx.read_edgelist(f)
+        try:
+            ppi = nx.read_edgelist(f)
+            if len(ppi.nodes())==0:
+                ppi = nx.read_edgelist(f, delimiter=',')
+        except Exception as e1:
+            try:
+                ppi = nx.read_edgelist(f, delimiter=',')
+            except Exception as e2:
+                raise (e2)
+                
 
         # Relabel PPI nodes
         mapping = {n: idx for idx, n in enumerate(ppi.nodes())}
         ppi_layers[context] = nx.relabel_nodes(ppi, mapping)
         orig_ppi_layers[context] = ppi
-        assert nx.is_connected(ppi_layers[context])
+        #assert nx.is_connected(ppi_layers[context])
 
         # Split into train/val/test
         ppi_train[context], ppi_val[context], ppi_test[context] = split_data(len(ppi_layers[context].edges))
@@ -79,17 +87,29 @@ def read_global_ppi(f):
 def read_data(G_f, ppi_dir, mg_f, feat_mat_dim):
 
     # Read global PPI 
-    G = nx.read_edgelist(G_f)
+    #G = nx.read_edgelist(G_f)
     #G = read_global_ppi(G_f)
+
+    try:
+        G = nx.read_edgelist(G_f)
+        if len(G.nodes()) == 0 :
+            G = nx.read_edgelist(G_f, delimiter=',')
+    except Exception as e1:
+        try:
+            G = nx.read_edgelist(G_f, delimiter=',')
+        except Exception as e2:
+            raise e2
 
     feat_mat = torch.normal(torch.zeros(len(G.nodes), feat_mat_dim), std=1)
     
     # Read PPI layers
     orig_ppi_layers, ppi_layers, ppi_train, ppi_val, ppi_test = read_ppi(ppi_dir)
     print("Number of PPI layers:", len(ppi_layers), len(ppi_train), len(ppi_val), len(ppi_test))
-
+    mg_mapping = {n: i for i, n in enumerate(sorted(ppi_layers))}
     # Read metagraph
     metagraph = nx.read_edgelist(mg_f, data=False, delimiter = "\t", create_using=nx.DiGraph)
+    if len(metagraph.nodes()) == 0:
+        metagraph = nx.read_edgelist(mg_f, data=False, delimiter = ",", create_using=nx.DiGraph)
     assert nx.is_connected(metagraph.to_undirected())
     mg_feat_mat = torch.zeros(len(metagraph.nodes), feat_mat_dim)
     
@@ -112,21 +132,37 @@ def read_data(G_f, ppi_dir, mg_f, feat_mat_dim):
         else:
             print(edges)
             raise NotImplementedError
-    tissue_neighbors = {mg_mapping[t]: [mg_mapping[n] for n in metagraph.to_undirected().neighbors(t)] for t in metagraph.to_undirected().nodes if "BTO" in t}
+    #tissue_neighbors = {mg_mapping[t]: [mg_mapping[n] for n in metagraph.to_undirected().neighbors(t)] for t in metagraph.to_undirected().nodes if "BTO" in t}
+    tissue_neighbors = {
+       mg_mapping[t]: [
+        mg_mapping[n]
+        for n in metagraph.to_undirected().neighbors(t)
+        if n in mg_mapping
+    ]
+    for t in metagraph.to_undirected().nodes
+    if "BTO" in t and t in mg_mapping
+    }
+
     metagraph = nx.relabel_nodes(metagraph, mg_mapping)
     mg_mask = torch.ones(len(metagraph.edges), dtype = torch.bool) # Pass in all meta graph edges during training, validation, and test
-    mg_data = create_data(metagraph, mg_mask, mg_mask, mg_mask, mg_nodetype, mg_edgetype, mg_feat_mat)
+    # Get all nodes after relabeling
+    all_nodes = list(metagraph.nodes)
 
+    # Print the list of relabeled nodes
+    print("All relabeled nodes:", all_nodes)
+    mg_data = create_data(metagraph, mg_mask, mg_mask, mg_mask, mg_nodetype, mg_edgetype, mg_feat_mat)
     # Set up PPI Data objects
     orig_ppi_layers_remapped = {mg_mapping[k]: v for k, v in orig_ppi_layers.items() if k in mg_mapping}
     ppi_layers = {mg_mapping[k]: v for k, v in ppi_layers.items() if k in mg_mapping}
     ppi_train = {mg_mapping[k]: v for k, v in ppi_train.items() if k in mg_mapping}
     ppi_val = {mg_mapping[k]: v for k, v in ppi_val.items() if k in mg_mapping}
     ppi_test = {mg_mapping[k]: v for k, v in ppi_test.items() if k in mg_mapping}    
+    switched_mg_mapping = {value: key for key, value in mg_mapping.items()}
     ppi_data = dict()
     for cluster, ppi in ppi_layers.items():
         ppi_nodetype = [2] * len(ppi.nodes) # protein nodes = 2
         ppi_edgetype = [4] * len(ppi.edges) # protein-protein edge
+        print(switched_mg_mapping[cluster], len(ppi.nodes), len(ppi.edges))
         ppi_node_names = orig_ppi_layers_remapped[cluster].nodes()
         p_index = [idx for idx, p in enumerate(list(G.nodes())) if p in ppi_node_names]
         assert len(p_index) == len(ppi_node_names)

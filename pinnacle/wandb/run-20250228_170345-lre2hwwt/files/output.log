@@ -1,0 +1,162 @@
+Number of PPI layers: 156 156 156 156
+Number of nodes: 218 Number of edges: 4018
+{'duct epithelial cell': <networkx.classes.graph.Graph object at 0x1497f74707c0>, 'myoepithelial cell': <networkx.classes.graph.Graph object at 0x1497f74cc7f0>, 'mucus secreting cell': <networkx.classes.graph.Graph object at 0x1497f74cc6a0>, 'intestinal crypt stem cell': <networkx.classes.graph.Graph object at 0x1497f74cc6d0>, 'cd4-positive, alpha-beta memory t cell': <networkx.classes.graph.Graph object at 0x1497f74cc3a0>, 'plasmacytoid dendritic cell': <networkx.classes.graph.Graph object at 0x1497f74cc4f0>, 'ciliated cell': <networkx.classes.graph.Graph object at 0x1497f74cc8e0>, 'mature enterocyte': <networkx.classes.graph.Graph object at 0x1497f74cc820>, 'naive regulatory t cell': <networkx.classes.graph.Graph object at 0x14980eb8dd90>, 'pulmonary ionocyte': <networkx.classes.graph.Graph object at 0x1497f74cc8b0>, 'erythroid progenitor': <networkx.classes.graph.Graph object at 0x1497f74cc100>, 'pancreatic alpha cell': <networkx.classes.graph.Graph object at 0x1497f7470820>, 'sperm': <networkx.classes.graph.Graph object at 0x1497f7470520>, 'tongue muscle cell': <networkx.classes.graph.Graph object at 0x1497f74706d0>, 'mesothelial cell': <networkx.classes.graph.Graph object at 0x1498095ff7f0>, 'cd24 neutrophil': <networkx.classes.graph.Graph object at 0x1498095ff850>, 'stromal cell': <networkx.classes.graph.Graph object at 0x1497f7481970>, 'respiratory mucous cell': <networkx.classes.graph.Graph object at 0x1497f7481520>, 'retinal ganglion cell': <networkx.classes.graph.Graph object at 0x14980d91f2b0>, 'hillock cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x14980d91f250>, 'epithelial cell of lacrimal sac': <networkx.classes.graph.Graph object at 0x1497f74201f0>, 'retina horizontal cell': <networkx.classes.graph.Graph object at 0x1497f7420130>, 'muscle cell': <networkx.classes.graph.Graph object at 0x1497f7420400>, 'radial glial cell': <networkx.classes.graph.Graph object at 0x1497f7420580>, 'acinar cell of salivary gland': <networkx.classes.graph.Graph object at 0x1497f7420730>, 'pancreatic ductal cell': <networkx.classes.graph.Graph object at 0x1497f7420820>, 'respiratory goblet cell': <networkx.classes.graph.Graph object at 0x1497f74208b0>, 'intermediate monocyte': <networkx.classes.graph.Graph object at 0x1497f7420970>, 'gut endothelial cell': <networkx.classes.graph.Graph object at 0x1497f74209a0>, 'basal cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x1497f74209d0>, 'bronchial smooth muscle cell': <networkx.classes.graph.Graph object at 0x1497f7420a90>, 'immature enterocyte': <networkx.classes.graph.Graph object at 0x1497f7420af0>, 'melanocyte': <networkx.classes.graph.Graph object at 0x1497f7420bb0>, 'goblet cell': <networkx.classes.graph.Graph object at 0x1497f7420c40>, 'b cell': <networkx.classes.graph.Graph object at 0x1497f74206a0>, 'pancreatic beta cell': <networkx.classes.graph.Graph object at 0x1497f7420d60>, 'macrophage': <networkx.classes.graph.Graph object at 0x1497f7420d90>, 'bladder urothelial cell': <networkx.classes.graph.Graph object at 0x1497f7420e20>, 'pancreatic pp cell': <networkx.classes.graph.Graph object at 0x1497f7420eb0>, 'plasmablast': <networkx.classes.graph.Graph object at 0x1497f7420f10>, 'limbal stromal cell': <networkx.classes.graph.Graph object at 0x1497f7420cd0>, 'ionocyte': <networkx.classes.graph.Graph object at 0x1498c2b2a220>, 'bronchial vessel endothelial cell': <networkx.classes.graph.Graph object at 0x1498c2b2aa30>, 'endothelial cell': <networkx.classes.graph.Graph object at 0x149807521a90>, 'corneal epithelial cell': <networkx.classes.graph.Graph object at 0x149807521c10>, 'duodenum glandular cell': <networkx.classes.graph.Graph object at 0x149807521ca0>, 'schwann cell': <networkx.classes.graph.Graph object at 0x149807521610>, 'cardiac endothelial cell': <networkx.classes.graph.Graph object at 0x149807521f70>, 'cd141-positive myeloid dendritic cell': <networkx.classes.graph.Graph object at 0x149807521a00>, 'cd1c-positive myeloid dendritic cell': <networkx.classes.graph.Graph object at 0x149807521ac0>, 'lacrimal gland functional unit cell': <networkx.classes.graph.Graph object at 0x1497f74157c0>, 'cd8-positive, alpha-beta cytotoxic t cell': <networkx.classes.graph.Graph object at 0x1497f7415f10>, 'mesenchymal stem cell': <networkx.classes.graph.Graph object at 0x1497f7415a00>, 'cd8-positive, alpha-beta cytokine secreting effector t cell': <networkx.classes.graph.Graph object at 0x1497f7415970>, 'enterocyte of epithelium of large intestine': <networkx.classes.graph.Graph object at 0x1497f7415a30>, 'lung microvascular endothelial cell': <networkx.classes.graph.Graph object at 0x1497f74156a0>, 'ciliary body': <networkx.classes.graph.Graph object at 0x1497f7415fd0>, 'pancreatic acinar cell': <networkx.classes.graph.Graph object at 0x1497f74154c0>, 'eye photoreceptor cell': <networkx.classes.graph.Graph object at 0x1497f74153a0>, 'classical monocyte': <networkx.classes.graph.Graph object at 0x1497f7415460>, 'intestinal enteroendocrine cell': <networkx.classes.graph.Graph object at 0x1497f7415640>, 'club cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x1497f7415160>, 'club cell': <networkx.classes.graph.Graph object at 0x1497f74150d0>, 'salivary gland cell': <networkx.classes.graph.Graph object at 0x1497f74152e0>, 'type i pneumocyte': <networkx.classes.graph.Graph object at 0x1497f7415370>, 'non-classical monocyte': <networkx.classes.graph.Graph object at 0x1497f7415250>, 'capillary endothelial cell': <networkx.classes.graph.Graph object at 0x1497f74151f0>, 'basal cell': <networkx.classes.graph.Graph object at 0x1497f7415e50>, 'cell of skeletal muscle': <networkx.classes.graph.Graph object at 0x1497f7415820>, 'tendon cell': <networkx.classes.graph.Graph object at 0x149768393070>, 'myofibroblast cell': <networkx.classes.graph.Graph object at 0x149768393130>, 'fast muscle cell': <networkx.classes.graph.Graph object at 0x1497683931c0>, 'myeloid progenitor': <networkx.classes.graph.Graph object at 0x149768393220>, 'paneth cell of epithelium of large intestine': <networkx.classes.graph.Graph object at 0x149768393310>, 'muller cell': <networkx.classes.graph.Graph object at 0x149768393370>, 'retinal pigment epithelial cell': <networkx.classes.graph.Graph object at 0x1497683933d0>, 'hillock-club cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x149768393460>, 'plasma cell': <networkx.classes.graph.Graph object at 0x149768393520>, 'hematopoietic stem cell': <networkx.classes.graph.Graph object at 0x1497683935e0>, 'lymphatic endothelial cell': <networkx.classes.graph.Graph object at 0x149768393580>, 'epithelial cell': <networkx.classes.graph.Graph object at 0x149768393640>, 'serous cell of epithelium of bronchus': <networkx.classes.graph.Graph object at 0x149768393700>, 'vascular associated smooth muscle cell': <networkx.classes.graph.Graph object at 0x149768393790>, 'fibroblast of breast': <networkx.classes.graph.Graph object at 0x1497683937f0>, 'mature conventional dendritic cell': <networkx.classes.graph.Graph object at 0x1497683938b0>, 'dn1 thymic pro-t cell': <networkx.classes.graph.Graph object at 0x149768393910>, 'enterocyte of epithelium of small intestine': <networkx.classes.graph.Graph object at 0x1497683939d0>, 'cd4-positive helper t cell': <networkx.classes.graph.Graph object at 0x149768393a30>, 'connective tissue cell': <networkx.classes.graph.Graph object at 0x149768393ac0>, 'double-positive, alpha-beta thymocyte': <networkx.classes.graph.Graph object at 0x149768393b50>, 'endothelial cell of artery': <networkx.classes.graph.Graph object at 0x149768393c10>, 'adipocyte': <networkx.classes.graph.Graph object at 0x149768393c70>, 'regulatory t cell': <networkx.classes.graph.Graph object at 0x149768393d30>, 'large intestine goblet cell': <networkx.classes.graph.Graph object at 0x149768393d90>, 'limbal stem cell': <networkx.classes.graph.Graph object at 0x149768393e50>, 'myeloid cell': <networkx.classes.graph.Graph object at 0x149768393eb0>, 'luminal epithelial cell of mammary gland': <networkx.classes.graph.Graph object at 0x149768393f40>, 'memory b cell': <networkx.classes.graph.Graph object at 0x1497502dd040>, 'vein endothelial cell': <networkx.classes.graph.Graph object at 0x1497502dd0a0>, 'tracheal goblet cell': <networkx.classes.graph.Graph object at 0x1497502dd160>, 'immune cell': <networkx.classes.graph.Graph object at 0x1497502dd1c0>, 'pericyte cell': <networkx.classes.graph.Graph object at 0x1497502dd250>, 'fibroblast of cardiac tissue': <networkx.classes.graph.Graph object at 0x1497502dd310>, 'immature natural killer cell': <networkx.classes.graph.Graph object at 0x1497502dd3a0>, 'dn4 thymocyte': <networkx.classes.graph.Graph object at 0x1497502dd430>, 'granulocyte': <networkx.classes.graph.Graph object at 0x1497502dd4c0>, 'alveolar fibroblast': <networkx.classes.graph.Graph object at 0x1497502dd520>, 'pancreatic stellate cell': <networkx.classes.graph.Graph object at 0x1497502dd5b0>, 'kidney epithelial cell': <networkx.classes.graph.Graph object at 0x1497502dd670>, 'ciliated epithelial cell': <networkx.classes.graph.Graph object at 0x1497502dd700>, 'transit amplifying cell of large intestine': <networkx.classes.graph.Graph object at 0x1497502dd790>, 'intrahepatic cholangiocyte': <networkx.classes.graph.Graph object at 0x1497502dd820>, 'dendritic cell': <networkx.classes.graph.Graph object at 0x1497502dd8b0>, 'mature nk t cell': <networkx.classes.graph.Graph object at 0x1497502dd940>, 'myometrial cell': <networkx.classes.graph.Graph object at 0x1497502ddb20>, 'fibroblast': <networkx.classes.graph.Graph object at 0x1497502ddcd0>, 'transit amplifying cell of small intestine': <networkx.classes.graph.Graph object at 0x1497502ddc70>, 'type ii pneumocyte': <networkx.classes.graph.Graph object at 0x1497502ddca0>, 'conjunctival epithelial cell': <networkx.classes.graph.Graph object at 0x1497502dd9d0>, 'liver dendritic cell': <networkx.classes.graph.Graph object at 0x1497502dda30>, 'nampt neutrophil': <networkx.classes.graph.Graph object at 0x1497502ddd90>, 'endothelial cell of lymphatic vessel': <networkx.classes.graph.Graph object at 0x1497502dddc0>, 'ocular surface cell': <networkx.classes.graph.Graph object at 0x1497502dde50>, 'pancreatic delta cell': <networkx.classes.graph.Graph object at 0x1497502ddf10>, 'secretory cell': <networkx.classes.graph.Graph object at 0x1497502ddf70>, 'intestinal tuft cell': <networkx.classes.graph.Graph object at 0x1497378eb070>, 'medullary thymic epithelial cell': <networkx.classes.graph.Graph object at 0x1497378eb0d0>, 'retinal bipolar neuron': <networkx.classes.graph.Graph object at 0x1497378eb190>, 'paneth cell of epithelium of small intestine': <networkx.classes.graph.Graph object at 0x1497378eb220>, 'adventitial cell': <networkx.classes.graph.Graph object at 0x1497378eb280>, 'dn3 thymocyte': <networkx.classes.graph.Graph object at 0x1497378eb310>, 'endothelial cell of hepatic sinusoid': <networkx.classes.graph.Graph object at 0x1497378eb3d0>, 't follicular helper cell': <networkx.classes.graph.Graph object at 0x1497378eb460>, 'skeletal muscle satellite stem cell': <networkx.classes.graph.Graph object at 0x1497378eb4c0>, 'lung ciliated cell': <networkx.classes.graph.Graph object at 0x1497378eb550>, 'microglial cell': <networkx.classes.graph.Graph object at 0x1497378eb5e0>, 'monocyte': <networkx.classes.graph.Graph object at 0x1497378eb670>, 'intestinal crypt stem cell of small intestine': <networkx.classes.graph.Graph object at 0x1497378eb730>, 'small intestine goblet cell': <networkx.classes.graph.Graph object at 0x1497378eb790>, 'retinal blood vessel endothelial cell': <networkx.classes.graph.Graph object at 0x1497378eb850>, 'artery endothelial cell': <networkx.classes.graph.Graph object at 0x1497378eb8e0>, 'serous cell of epithelium of trachea': <networkx.classes.graph.Graph object at 0x1497378eb970>, 'keratinocyte': <networkx.classes.graph.Graph object at 0x1497378eb9d0>, 'myeloid dendritic cell': <networkx.classes.graph.Graph object at 0x1497378eba90>, 'corneal keratocyte': <networkx.classes.graph.Graph object at 0x1497378ebaf0>, 'naive thymus-derived cd4-positive, alpha-beta t cell': <networkx.classes.graph.Graph object at 0x1497378ebb80>, 'cardiac muscle cell': <networkx.classes.graph.Graph object at 0x1497378ebc10>, 'hepatocyte': <networkx.classes.graph.Graph object at 0x1497378ebcd0>, 'langerhans cell': <networkx.classes.graph.Graph object at 0x1497378ebd30>, 'intestinal crypt stem cell of large intestine': <networkx.classes.graph.Graph object at 0x1497378ebdf0>, 'epithelial cell of uterus': <networkx.classes.graph.Graph object at 0x1497378ebe50>, 'luminal cell of prostate epithelium': <networkx.classes.graph.Graph object at 0x1497378ebee0>, 'nk cell': <networkx.classes.graph.Graph object at 0x1497378ebfa0>, 'smooth muscle cell': <networkx.classes.graph.Graph object at 0x14971f3da070>, 'endothelial cell of vascular tree': <networkx.classes.graph.Graph object at 0x14971f3da100>, 'type i nk t cell': <networkx.classes.graph.Graph object at 0x14971f3da190>}
+{'acinar cell of salivary gland': 0, 'adipocyte': 1, 'adventitial cell': 2, 'alveolar fibroblast': 3, 'artery endothelial cell': 4, 'b cell': 5, 'basal cell': 6, 'basal cell of prostate epithelium': 7, 'bladder urothelial cell': 8, 'bronchial smooth muscle cell': 9, 'bronchial vessel endothelial cell': 10, 'capillary endothelial cell': 11, 'cardiac endothelial cell': 12, 'cardiac muscle cell': 13, 'cd141-positive myeloid dendritic cell': 14, 'cd1c-positive myeloid dendritic cell': 15, 'cd24 neutrophil': 16, 'cd4-positive helper t cell': 17, 'cd4-positive, alpha-beta memory t cell': 18, 'cd8-positive, alpha-beta cytokine secreting effector t cell': 19, 'cd8-positive, alpha-beta cytotoxic t cell': 20, 'cell of skeletal muscle': 21, 'ciliary body': 22, 'ciliated cell': 23, 'ciliated epithelial cell': 24, 'classical monocyte': 25, 'club cell': 26, 'club cell of prostate epithelium': 27, 'conjunctival epithelial cell': 28, 'connective tissue cell': 29, 'corneal epithelial cell': 30, 'corneal keratocyte': 31, 'dendritic cell': 32, 'dn1 thymic pro-t cell': 33, 'dn3 thymocyte': 34, 'dn4 thymocyte': 35, 'double-positive, alpha-beta thymocyte': 36, 'duct epithelial cell': 37, 'duodenum glandular cell': 38, 'endothelial cell': 39, 'endothelial cell of artery': 40, 'endothelial cell of hepatic sinusoid': 41, 'endothelial cell of lymphatic vessel': 42, 'endothelial cell of vascular tree': 43, 'enterocyte of epithelium of large intestine': 44, 'enterocyte of epithelium of small intestine': 45, 'epithelial cell': 46, 'epithelial cell of lacrimal sac': 47, 'epithelial cell of uterus': 48, 'erythroid progenitor': 49, 'eye photoreceptor cell': 50, 'fast muscle cell': 51, 'fibroblast': 52, 'fibroblast of breast': 53, 'fibroblast of cardiac tissue': 54, 'goblet cell': 55, 'granulocyte': 56, 'gut endothelial cell': 57, 'hematopoietic stem cell': 58, 'hepatocyte': 59, 'hillock cell of prostate epithelium': 60, 'hillock-club cell of prostate epithelium': 61, 'immature enterocyte': 62, 'immature natural killer cell': 63, 'immune cell': 64, 'intermediate monocyte': 65, 'intestinal crypt stem cell': 66, 'intestinal crypt stem cell of large intestine': 67, 'intestinal crypt stem cell of small intestine': 68, 'intestinal enteroendocrine cell': 69, 'intestinal tuft cell': 70, 'intrahepatic cholangiocyte': 71, 'ionocyte': 72, 'keratinocyte': 73, 'kidney epithelial cell': 74, 'lacrimal gland functional unit cell': 75, 'langerhans cell': 76, 'large intestine goblet cell': 77, 'limbal stem cell': 78, 'limbal stromal cell': 79, 'liver dendritic cell': 80, 'luminal cell of prostate epithelium': 81, 'luminal epithelial cell of mammary gland': 82, 'lung ciliated cell': 83, 'lung microvascular endothelial cell': 84, 'lymphatic endothelial cell': 85, 'macrophage': 86, 'mature conventional dendritic cell': 87, 'mature enterocyte': 88, 'mature nk t cell': 89, 'medullary thymic epithelial cell': 90, 'melanocyte': 91, 'memory b cell': 92, 'mesenchymal stem cell': 93, 'mesothelial cell': 94, 'microglial cell': 95, 'monocyte': 96, 'mucus secreting cell': 97, 'muller cell': 98, 'muscle cell': 99, 'myeloid cell': 100, 'myeloid dendritic cell': 101, 'myeloid progenitor': 102, 'myoepithelial cell': 103, 'myofibroblast cell': 104, 'myometrial cell': 105, 'naive regulatory t cell': 106, 'naive thymus-derived cd4-positive, alpha-beta t cell': 107, 'nampt neutrophil': 108, 'nk cell': 109, 'non-classical monocyte': 110, 'ocular surface cell': 111, 'pancreatic acinar cell': 112, 'pancreatic alpha cell': 113, 'pancreatic beta cell': 114, 'pancreatic delta cell': 115, 'pancreatic ductal cell': 116, 'pancreatic pp cell': 117, 'pancreatic stellate cell': 118, 'paneth cell of epithelium of large intestine': 119, 'paneth cell of epithelium of small intestine': 120, 'pericyte cell': 121, 'plasma cell': 122, 'plasmablast': 123, 'plasmacytoid dendritic cell': 124, 'pulmonary ionocyte': 125, 'radial glial cell': 126, 'regulatory t cell': 127, 'respiratory goblet cell': 128, 'respiratory mucous cell': 129, 'retina horizontal cell': 130, 'retinal bipolar neuron': 131, 'retinal blood vessel endothelial cell': 132, 'retinal ganglion cell': 133, 'retinal pigment epithelial cell': 134, 'salivary gland cell': 135, 'schwann cell': 136, 'secretory cell': 137, 'serous cell of epithelium of bronchus': 138, 'serous cell of epithelium of trachea': 139, 'skeletal muscle satellite stem cell': 140, 'small intestine goblet cell': 141, 'smooth muscle cell': 142, 'sperm': 143, 'stromal cell': 144, 't follicular helper cell': 145, 'tendon cell': 146, 'tongue muscle cell': 147, 'tracheal goblet cell': 148, 'transit amplifying cell of large intestine': 149, 'transit amplifying cell of small intestine': 150, 'type i nk t cell': 151, 'type i pneumocyte': 152, 'type ii pneumocyte': 153, 'vascular associated smooth muscle cell': 154, 'vein endothelial cell': 155, 'BTO:0000000': 156, 'BTO:0000042': 157, 'BTO:0000058': 158, 'BTO:0000080': 159, 'BTO:0000081': 160, 'BTO:0000082': 161, 'BTO:0000083': 162, 'BTO:0000088': 163, 'BTO:0000089': 164, 'BTO:0000123': 165, 'BTO:0000141': 166, 'BTO:0000149': 167, 'BTO:0000202': 168, 'BTO:0000203': 169, 'BTO:0000254': 170, 'BTO:0000282': 171, 'BTO:0000345': 172, 'BTO:0000421': 173, 'BTO:0000431': 174, 'BTO:0000439': 175, 'BTO:0000511': 176, 'BTO:0000522': 177, 'BTO:0000562': 178, 'BTO:0000570': 179, 'BTO:0000634': 180, 'BTO:0000648': 181, 'BTO:0000651': 182, 'BTO:0000671': 183, 'BTO:0000706': 184, 'BTO:0000753': 185, 'BTO:0000759': 186, 'BTO:0000763': 187, 'BTO:0000765': 188, 'BTO:0000784': 189, 'BTO:0000817': 190, 'BTO:0000887': 191, 'BTO:0000988': 192, 'BTO:0001085': 193, 'BTO:0001090': 194, 'BTO:0001129': 195, 'BTO:0001203': 196, 'BTO:0001244': 197, 'BTO:0001253': 198, 'BTO:0001281': 199, 'BTO:0001368': 200, 'BTO:0001374': 201, 'BTO:0001385': 202, 'BTO:0001388': 203, 'BTO:0001424': 204, 'BTO:0001485': 205, 'BTO:0001486': 206, 'BTO:0001487': 207, 'BTO:0001488': 208, 'BTO:0001489': 209, 'BTO:0001491': 210, 'BTO:0001493': 211, 'BTO:0003091': 212, 'BTO:0003092': 213, 'BTO:0003096': 214, 'BTO:0003099': 215, 'BTO:0003718': 216, 'BTO:0005810': 217}
+All relabeled nodes: [0, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 4, 10, 11, 25, 39, 40, 76, 78, 84, 132, 196, 1, 2, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 41, 42, 43, 44, 45, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 124, 125, 126, 127, 128, 130, 131, 134, 135, 137, 139, 140, 141, 142, 195, 189, 198, 201, 191, 46, 112, 202, 51, 133, 136, 138, 203, 184, 101, 182, 164, 199, 187, 123, 36, 190, 204, 129, 165, 216, 175, 207, 192, 186, 183, 178, 166, 171, 209, 194, 200, 211, 167, 206, 181, 208, 177, 172, 170, 159, 169, 188, 174, 215, 162, 214, 161, 156, 157, 210, 205, 180, 197, 213, 212, 163, 179, 173, 168, 217, 193, 176, 185, 160, 158]
+duct epithelial cell 2821 14603
+myoepithelial cell 2026 6823
+mucus secreting cell 2833 16017
+intestinal crypt stem cell 3072 37842
+cd4-positive, alpha-beta memory t cell 1067 7190
+plasmacytoid dendritic cell 2545 18752
+ciliated cell 2576 13643
+mature enterocyte 1103 2950
+naive regulatory t cell 2429 16970
+pulmonary ionocyte 2784 16533
+erythroid progenitor 3312 46025
+pancreatic alpha cell 2247 9712
+sperm 2635 23555
+tongue muscle cell 1382 6607
+mesothelial cell 3211 35080
+cd24 neutrophil 1837 7277
+stromal cell 3091 34462
+respiratory mucous cell 2939 21730
+retinal ganglion cell 1461 5959
+hillock cell of prostate epithelium 2748 15446
+epithelial cell of lacrimal sac 1531 4928
+retina horizontal cell 2361 11478
+muscle cell 2206 21898
+radial glial cell 3384 44458
+acinar cell of salivary gland 2386 8694
+pancreatic ductal cell 3054 22920
+respiratory goblet cell 3092 27756
+intermediate monocyte 2585 13380
+gut endothelial cell 1781 5997
+basal cell of prostate epithelium 3036 23354
+bronchial smooth muscle cell 1412 4389
+immature enterocyte 3101 33735
+melanocyte 2746 22070
+goblet cell 1990 7206
+b cell 1180 7427
+pancreatic beta cell 2742 18095
+macrophage 3113 23062
+bladder urothelial cell 3198 36542
+pancreatic pp cell 1397 6831
+plasmablast 3041 33719
+limbal stromal cell 2747 12402
+ionocyte 2866 16953
+bronchial vessel endothelial cell 3312 40280
+endothelial cell 3176 25570
+corneal epithelial cell 3290 32414
+duodenum glandular cell 2850 17490
+schwann cell 3015 20552
+cardiac endothelial cell 2066 8023
+cd141-positive myeloid dendritic cell 3296 41245
+cd1c-positive myeloid dendritic cell 3049 31128
+lacrimal gland functional unit cell 2323 7670
+cd8-positive, alpha-beta cytotoxic t cell 1854 8172
+mesenchymal stem cell 2834 22690
+cd8-positive, alpha-beta cytokine secreting effector t cell 1772 8128
+enterocyte of epithelium of large intestine 1320 4089
+lung microvascular endothelial cell 1908 7889
+ciliary body 3151 23451
+pancreatic acinar cell 2629 17194
+eye photoreceptor cell 2140 9127
+classical monocyte 3039 23543
+intestinal enteroendocrine cell 2848 15594
+club cell of prostate epithelium 2748 14088
+club cell 2140 8012
+salivary gland cell 3424 36255
+type i pneumocyte 2975 17100
+non-classical monocyte 1393 4736
+capillary endothelial cell 1394 4791
+basal cell 3182 35954
+cell of skeletal muscle 2891 23521
+tendon cell 2747 20597
+myofibroblast cell 2807 15310
+fast muscle cell 1297 6184
+myeloid progenitor 3337 48500
+paneth cell of epithelium of large intestine 1965 8291
+muller cell 2356 9804
+retinal pigment epithelial cell 2225 8581
+hillock-club cell of prostate epithelium 2952 21315
+plasma cell 3178 40013
+hematopoietic stem cell 2919 38048
+lymphatic endothelial cell 3023 19766
+epithelial cell 2818 25293
+serous cell of epithelium of bronchus 2954 24790
+vascular associated smooth muscle cell 2495 11550
+fibroblast of breast 2472 17934
+mature conventional dendritic cell 2988 28117
+dn1 thymic pro-t cell 1597 10528
+enterocyte of epithelium of small intestine 1943 7433
+cd4-positive helper t cell 1272 6893
+connective tissue cell 2164 7315
+double-positive, alpha-beta thymocyte 2628 25021
+endothelial cell of artery 2907 17058
+adipocyte 3099 34098
+regulatory t cell 2246 15626
+large intestine goblet cell 1215 3073
+limbal stem cell 3203 25216
+myeloid cell 3196 29416
+luminal epithelial cell of mammary gland 3094 31891
+memory b cell 1920 15774
+vein endothelial cell 3070 28516
+tracheal goblet cell 2965 17189
+immune cell 1435 6447
+pericyte cell 2986 19533
+fibroblast of cardiac tissue 1826 5967
+immature natural killer cell 1578 6569
+dn4 thymocyte 3443 50853
+granulocyte 3300 43306
+alveolar fibroblast 1201 3218
+pancreatic stellate cell 3110 25114
+kidney epithelial cell 2909 19643
+ciliated epithelial cell 3078 28230
+transit amplifying cell of large intestine 3158 38352
+intrahepatic cholangiocyte 2844 16123
+dendritic cell 2048 12452
+mature nk t cell 1450 6647
+myometrial cell 2478 12569
+fibroblast 3197 29774
+transit amplifying cell of small intestine 3031 33054
+type ii pneumocyte 3228 36096
+conjunctival epithelial cell 3112 25988
+liver dendritic cell 2472 15263
+nampt neutrophil 1291 4506
+endothelial cell of lymphatic vessel 3038 20587
+ocular surface cell 2986 20219
+pancreatic delta cell 2869 21706
+secretory cell 3134 25906
+intestinal tuft cell 1557 5246
+medullary thymic epithelial cell 3299 40121
+retinal bipolar neuron 2832 17018
+paneth cell of epithelium of small intestine 2695 15093
+adventitial cell 2763 27548
+dn3 thymocyte 1296 9277
+endothelial cell of hepatic sinusoid 2142 7759
+t follicular helper cell 2028 13962
+skeletal muscle satellite stem cell 1862 14990
+lung ciliated cell 2627 15103
+microglial cell 2606 17904
+monocyte 2866 19556
+intestinal crypt stem cell of small intestine 3239 40816
+small intestine goblet cell 1804 6258
+retinal blood vessel endothelial cell 3176 28717
+artery endothelial cell 3171 22408
+serous cell of epithelium of trachea 2741 15669
+keratinocyte 3217 36520
+myeloid dendritic cell 3258 39335
+corneal keratocyte 2952 15324
+naive thymus-derived cd4-positive, alpha-beta t cell 1080 7872
+cardiac muscle cell 3247 33782
+hepatocyte 3024 20858
+langerhans cell 3065 32454
+intestinal crypt stem cell of large intestine 1153 3034
+epithelial cell of uterus 3168 38295
+luminal cell of prostate epithelium 2738 13511
+nk cell 1457 5504
+smooth muscle cell 3186 24183
+endothelial cell of vascular tree 2163 15910
+type i nk t cell 1007 3051
+{'acinar cell of salivary gland': 0, 'adipocyte': 1, 'adventitial cell': 2, 'alveolar fibroblast': 3, 'artery endothelial cell': 4, 'b cell': 5, 'basal cell': 6, 'basal cell of prostate epithelium': 7, 'bladder urothelial cell': 8, 'bronchial smooth muscle cell': 9, 'bronchial vessel endothelial cell': 10, 'capillary endothelial cell': 11, 'cardiac endothelial cell': 12, 'cardiac muscle cell': 13, 'cd141-positive myeloid dendritic cell': 14, 'cd1c-positive myeloid dendritic cell': 15, 'cd24 neutrophil': 16, 'cd4-positive helper t cell': 17, 'cd4-positive, alpha-beta memory t cell': 18, 'cd8-positive, alpha-beta cytokine secreting effector t cell': 19, 'cd8-positive, alpha-beta cytotoxic t cell': 20, 'cell of skeletal muscle': 21, 'ciliary body': 22, 'ciliated cell': 23, 'ciliated epithelial cell': 24, 'classical monocyte': 25, 'club cell': 26, 'club cell of prostate epithelium': 27, 'conjunctival epithelial cell': 28, 'connective tissue cell': 29, 'corneal epithelial cell': 30, 'corneal keratocyte': 31, 'dendritic cell': 32, 'dn1 thymic pro-t cell': 33, 'dn3 thymocyte': 34, 'dn4 thymocyte': 35, 'double-positive, alpha-beta thymocyte': 36, 'duct epithelial cell': 37, 'duodenum glandular cell': 38, 'endothelial cell': 39, 'endothelial cell of artery': 40, 'endothelial cell of hepatic sinusoid': 41, 'endothelial cell of lymphatic vessel': 42, 'endothelial cell of vascular tree': 43, 'enterocyte of epithelium of large intestine': 44, 'enterocyte of epithelium of small intestine': 45, 'epithelial cell': 46, 'epithelial cell of lacrimal sac': 47, 'epithelial cell of uterus': 48, 'erythroid progenitor': 49, 'eye photoreceptor cell': 50, 'fast muscle cell': 51, 'fibroblast': 52, 'fibroblast of breast': 53, 'fibroblast of cardiac tissue': 54, 'goblet cell': 55, 'granulocyte': 56, 'gut endothelial cell': 57, 'hematopoietic stem cell': 58, 'hepatocyte': 59, 'hillock cell of prostate epithelium': 60, 'hillock-club cell of prostate epithelium': 61, 'immature enterocyte': 62, 'immature natural killer cell': 63, 'immune cell': 64, 'intermediate monocyte': 65, 'intestinal crypt stem cell': 66, 'intestinal crypt stem cell of large intestine': 67, 'intestinal crypt stem cell of small intestine': 68, 'intestinal enteroendocrine cell': 69, 'intestinal tuft cell': 70, 'intrahepatic cholangiocyte': 71, 'ionocyte': 72, 'keratinocyte': 73, 'kidney epithelial cell': 74, 'lacrimal gland functional unit cell': 75, 'langerhans cell': 76, 'large intestine goblet cell': 77, 'limbal stem cell': 78, 'limbal stromal cell': 79, 'liver dendritic cell': 80, 'luminal cell of prostate epithelium': 81, 'luminal epithelial cell of mammary gland': 82, 'lung ciliated cell': 83, 'lung microvascular endothelial cell': 84, 'lymphatic endothelial cell': 85, 'macrophage': 86, 'mature conventional dendritic cell': 87, 'mature enterocyte': 88, 'mature nk t cell': 89, 'medullary thymic epithelial cell': 90, 'melanocyte': 91, 'memory b cell': 92, 'mesenchymal stem cell': 93, 'mesothelial cell': 94, 'microglial cell': 95, 'monocyte': 96, 'mucus secreting cell': 97, 'muller cell': 98, 'muscle cell': 99, 'myeloid cell': 100, 'myeloid dendritic cell': 101, 'myeloid progenitor': 102, 'myoepithelial cell': 103, 'myofibroblast cell': 104, 'myometrial cell': 105, 'naive regulatory t cell': 106, 'naive thymus-derived cd4-positive, alpha-beta t cell': 107, 'nampt neutrophil': 108, 'nk cell': 109, 'non-classical monocyte': 110, 'ocular surface cell': 111, 'pancreatic acinar cell': 112, 'pancreatic alpha cell': 113, 'pancreatic beta cell': 114, 'pancreatic delta cell': 115, 'pancreatic ductal cell': 116, 'pancreatic pp cell': 117, 'pancreatic stellate cell': 118, 'paneth cell of epithelium of large intestine': 119, 'paneth cell of epithelium of small intestine': 120, 'pericyte cell': 121, 'plasma cell': 122, 'plasmablast': 123, 'plasmacytoid dendritic cell': 124, 'pulmonary ionocyte': 125, 'radial glial cell': 126, 'regulatory t cell': 127, 'respiratory goblet cell': 128, 'respiratory mucous cell': 129, 'retina horizontal cell': 130, 'retinal bipolar neuron': 131, 'retinal blood vessel endothelial cell': 132, 'retinal ganglion cell': 133, 'retinal pigment epithelial cell': 134, 'salivary gland cell': 135, 'schwann cell': 136, 'secretory cell': 137, 'serous cell of epithelium of bronchus': 138, 'serous cell of epithelium of trachea': 139, 'skeletal muscle satellite stem cell': 140, 'small intestine goblet cell': 141, 'smooth muscle cell': 142, 'sperm': 143, 'stromal cell': 144, 't follicular helper cell': 145, 'tendon cell': 146, 'tongue muscle cell': 147, 'tracheal goblet cell': 148, 'transit amplifying cell of large intestine': 149, 'transit amplifying cell of small intestine': 150, 'type i nk t cell': 151, 'type i pneumocyte': 152, 'type ii pneumocyte': 153, 'vascular associated smooth muscle cell': 154, 'vein endothelial cell': 155, 'BTO:0000000': 156, 'BTO:0000042': 157, 'BTO:0000058': 158, 'BTO:0000080': 159, 'BTO:0000081': 160, 'BTO:0000082': 161, 'BTO:0000083': 162, 'BTO:0000088': 163, 'BTO:0000089': 164, 'BTO:0000123': 165, 'BTO:0000141': 166, 'BTO:0000149': 167, 'BTO:0000202': 168, 'BTO:0000203': 169, 'BTO:0000254': 170, 'BTO:0000282': 171, 'BTO:0000345': 172, 'BTO:0000421': 173, 'BTO:0000431': 174, 'BTO:0000439': 175, 'BTO:0000511': 176, 'BTO:0000522': 177, 'BTO:0000562': 178, 'BTO:0000570': 179, 'BTO:0000634': 180, 'BTO:0000648': 181, 'BTO:0000651': 182, 'BTO:0000671': 183, 'BTO:0000706': 184, 'BTO:0000753': 185, 'BTO:0000759': 186, 'BTO:0000763': 187, 'BTO:0000765': 188, 'BTO:0000784': 189, 'BTO:0000817': 190, 'BTO:0000887': 191, 'BTO:0000988': 192, 'BTO:0001085': 193, 'BTO:0001090': 194, 'BTO:0001129': 195, 'BTO:0001203': 196, 'BTO:0001244': 197, 'BTO:0001253': 198, 'BTO:0001281': 199, 'BTO:0001368': 200, 'BTO:0001374': 201, 'BTO:0001385': 202, 'BTO:0001388': 203, 'BTO:0001424': 204, 'BTO:0001485': 205, 'BTO:0001486': 206, 'BTO:0001487': 207, 'BTO:0001488': 208, 'BTO:0001489': 209, 'BTO:0001491': 210, 'BTO:0001493': 211, 'BTO:0003091': 212, 'BTO:0003092': 213, 'BTO:0003096': 214, 'BTO:0003099': 215, 'BTO:0003718': 216, 'BTO:0005810': 217}

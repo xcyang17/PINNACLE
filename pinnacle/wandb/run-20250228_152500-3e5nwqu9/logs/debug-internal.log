@@ -267,3 +267,157 @@
 2025-02-28 15:41:00,383 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
 2025-02-28 15:41:15,464 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
 2025-02-28 15:41:15,465 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:41:30,684 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:41:30,684 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:41:45,852 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:41:45,852 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:42:01,013 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:42:01,013 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:42:16,115 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:42:16,115 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:42:31,201 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:42:31,202 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:42:46,340 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:42:46,340 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:43:01,495 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:43:01,495 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:43:16,572 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:43:16,572 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:43:24,084 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: resume
+2025-02-28 15:43:24,084 INFO    HandlerThread:1547314 [handler.py:handle_request_resume():687] starting system metrics thread
+2025-02-28 15:43:24,125 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: pause
+2025-02-28 15:43:24,125 INFO    HandlerThread:1547314 [handler.py:handle_request_pause():696] stopping system metrics thread
+2025-02-28 15:43:24,224 DEBUG   SenderThread:1547314 [sender.py:send():303] send: stats
+2025-02-28 15:43:25,208 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: resume
+2025-02-28 15:43:25,208 INFO    HandlerThread:1547314 [handler.py:handle_request_resume():687] starting system metrics thread
+2025-02-28 15:43:25,812 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: pause
+2025-02-28 15:43:25,812 INFO    HandlerThread:1547314 [handler.py:handle_request_pause():696] stopping system metrics thread
+2025-02-28 15:43:25,850 DEBUG   SenderThread:1547314 [sender.py:send():303] send: stats
+2025-02-28 15:43:28,179 INFO    Thread-13 :1547314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/output.log
+2025-02-28 15:43:31,777 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:43:31,778 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:43:43,140 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: resume
+2025-02-28 15:43:43,140 INFO    HandlerThread:1547314 [handler.py:handle_request_resume():687] starting system metrics thread
+2025-02-28 15:43:43,181 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: pause
+2025-02-28 15:43:43,181 INFO    HandlerThread:1547314 [handler.py:handle_request_pause():696] stopping system metrics thread
+2025-02-28 15:43:43,281 DEBUG   SenderThread:1547314 [sender.py:send():303] send: stats
+2025-02-28 15:43:46,939 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:43:46,939 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:43:48,883 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: resume
+2025-02-28 15:43:48,883 INFO    HandlerThread:1547314 [handler.py:handle_request_resume():687] starting system metrics thread
+2025-02-28 15:44:02,018 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: stop_status
+2025-02-28 15:44:02,018 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: stop_status
+2025-02-28 15:44:08,351 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: pause
+2025-02-28 15:44:08,351 INFO    HandlerThread:1547314 [handler.py:handle_request_pause():696] stopping system metrics thread
+2025-02-28 15:44:08,444 DEBUG   SenderThread:1547314 [sender.py:send():303] send: stats
+2025-02-28 15:44:12,660 DEBUG   SenderThread:1547314 [sender.py:send():303] send: exit
+2025-02-28 15:44:12,661 INFO    SenderThread:1547314 [sender.py:send_exit():442] handling exit code: 0
+2025-02-28 15:44:12,661 INFO    SenderThread:1547314 [sender.py:send_exit():444] handling runtime: 26
+2025-02-28 15:44:12,661 INFO    SenderThread:1547314 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-02-28 15:44:12,662 INFO    SenderThread:1547314 [sender.py:send_exit():450] send defer
+2025-02-28 15:44:12,662 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:12,662 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 0
+2025-02-28 15:44:12,662 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:12,662 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 0
+2025-02-28 15:44:12,662 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 1
+2025-02-28 15:44:12,662 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:12,662 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 1
+2025-02-28 15:44:12,662 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:12,662 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 1
+2025-02-28 15:44:12,663 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 2
+2025-02-28 15:44:12,663 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:12,663 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 2
+2025-02-28 15:44:12,663 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:12,663 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 2
+2025-02-28 15:44:12,663 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 3
+2025-02-28 15:44:12,663 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:12,663 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 3
+2025-02-28 15:44:12,663 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:12,663 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 3
+2025-02-28 15:44:12,663 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 4
+2025-02-28 15:44:12,663 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:12,663 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 4
+2025-02-28 15:44:12,664 DEBUG   SenderThread:1547314 [sender.py:send():303] send: summary
+2025-02-28 15:44:12,664 INFO    SenderThread:1547314 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-02-28 15:44:12,664 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:12,664 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 4
+2025-02-28 15:44:12,664 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 5
+2025-02-28 15:44:12,664 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:12,664 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 5
+2025-02-28 15:44:12,665 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:12,665 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 5
+2025-02-28 15:44:12,665 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 6
+2025-02-28 15:44:12,665 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:12,665 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 6
+2025-02-28 15:44:12,665 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:12,665 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 6
+2025-02-28 15:44:13,198 INFO    Thread-13 :1547314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/wandb-summary.json
+2025-02-28 15:44:13,661 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: poll_exit
+2025-02-28 15:44:13,684 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 7
+2025-02-28 15:44:13,684 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: poll_exit
+2025-02-28 15:44:13,685 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:13,685 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 7
+2025-02-28 15:44:13,685 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:13,685 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 7
+2025-02-28 15:44:13,685 INFO    SenderThread:1547314 [dir_watcher.py:finish():362] shutting down directory watcher
+2025-02-28 15:44:14,198 INFO    Thread-13 :1547314 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/output.log
+2025-02-28 15:44:14,198 INFO    SenderThread:1547314 [dir_watcher.py:finish():392] scan: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files
+2025-02-28 15:44:14,199 INFO    SenderThread:1547314 [dir_watcher.py:finish():406] scan save: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/conda-environment.yaml conda-environment.yaml
+2025-02-28 15:44:14,199 INFO    SenderThread:1547314 [dir_watcher.py:finish():406] scan save: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/requirements.txt requirements.txt
+2025-02-28 15:44:14,199 INFO    SenderThread:1547314 [dir_watcher.py:finish():406] scan save: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/wandb-summary.json wandb-summary.json
+2025-02-28 15:44:14,199 INFO    SenderThread:1547314 [dir_watcher.py:finish():406] scan save: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/output.log output.log
+2025-02-28 15:44:14,204 INFO    SenderThread:1547314 [dir_watcher.py:finish():406] scan save: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/wandb-metadata.json wandb-metadata.json
+2025-02-28 15:44:14,204 INFO    SenderThread:1547314 [dir_watcher.py:finish():406] scan save: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/config.yaml config.yaml
+2025-02-28 15:44:14,207 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 8
+2025-02-28 15:44:14,207 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:14,208 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 8
+2025-02-28 15:44:14,210 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:14,210 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 8
+2025-02-28 15:44:14,210 INFO    SenderThread:1547314 [file_pusher.py:finish():168] shutting down file pusher
+2025-02-28 15:44:14,572 INFO    Thread-42 :1547314 [upload_job.py:push():143] Uploaded file /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/requirements.txt
+2025-02-28 15:44:14,575 INFO    Thread-45 :1547314 [upload_job.py:push():143] Uploaded file /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/config.yaml
+2025-02-28 15:44:14,577 INFO    Thread-43 :1547314 [upload_job.py:push():143] Uploaded file /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/wandb-summary.json
+2025-02-28 15:44:14,587 INFO    Thread-44 :1547314 [upload_job.py:push():143] Uploaded file /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/files/output.log
+2025-02-28 15:44:14,661 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: poll_exit
+2025-02-28 15:44:14,662 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: poll_exit
+2025-02-28 15:44:14,787 INFO    Thread-12 :1547314 [sender.py:transition_state():463] send defer: 9
+2025-02-28 15:44:14,787 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:14,787 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 9
+2025-02-28 15:44:14,787 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:14,787 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 9
+2025-02-28 15:44:14,787 INFO    SenderThread:1547314 [file_pusher.py:join():173] waiting for file pusher
+2025-02-28 15:44:14,787 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 10
+2025-02-28 15:44:14,788 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:14,788 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 10
+2025-02-28 15:44:14,788 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:14,788 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 10
+2025-02-28 15:44:15,096 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 11
+2025-02-28 15:44:15,096 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:15,097 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 11
+2025-02-28 15:44:15,097 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:15,097 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 11
+2025-02-28 15:44:15,097 INFO    SenderThread:1547314 [sender.py:transition_state():463] send defer: 12
+2025-02-28 15:44:15,097 DEBUG   SenderThread:1547314 [sender.py:send():303] send: final
+2025-02-28 15:44:15,097 DEBUG   SenderThread:1547314 [sender.py:send():303] send: footer
+2025-02-28 15:44:15,097 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: defer
+2025-02-28 15:44:15,097 INFO    HandlerThread:1547314 [handler.py:handle_request_defer():161] handle defer: 12
+2025-02-28 15:44:15,097 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: defer
+2025-02-28 15:44:15,097 INFO    SenderThread:1547314 [sender.py:send_request_defer():459] handle sender defer: 12
+2025-02-28 15:44:15,098 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: poll_exit
+2025-02-28 15:44:15,098 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: poll_exit
+2025-02-28 15:44:15,098 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: poll_exit
+2025-02-28 15:44:15,099 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: poll_exit
+2025-02-28 15:44:15,099 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: server_info
+2025-02-28 15:44:15,099 DEBUG   SenderThread:1547314 [sender.py:send_request():317] send_request: server_info
+2025-02-28 15:44:15,101 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: get_summary
+2025-02-28 15:44:15,102 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: sampled_history
+2025-02-28 15:44:15,202 INFO    MainThread:1547314 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-02-28 15:44:15,203 INFO    MainThread:1547314 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-02-28 15:44:15,203 INFO    MainThread:1547314 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2025-02-28 15:44:15,203 DEBUG   HandlerThread:1547314 [handler.py:handle_request():138] handle_request: shutdown
+2025-02-28 15:44:15,203 INFO    HandlerThread:1547314 [handler.py:finish():814] shutting down handler
+2025-02-28 15:44:16,097 INFO    WriterThread:1547314 [datastore.py:close():279] close: /home/yang1641/PINNACLE/pinnacle/wandb/run-20250228_152500-3e5nwqu9/run-3e5nwqu9.wandb
+2025-02-28 15:44:16,202 INFO    SenderThread:1547314 [sender.py:finish():1331] shutting down sender
+2025-02-28 15:44:16,202 INFO    SenderThread:1547314 [file_pusher.py:finish():168] shutting down file pusher
+2025-02-28 15:44:16,202 INFO    SenderThread:1547314 [file_pusher.py:join():173] waiting for file pusher
+2025-02-28 15:44:16,205 INFO    MainThread:1547314 [internal.py:handle_exit():78] Internal process exited

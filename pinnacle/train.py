@@ -41,6 +41,10 @@ args = get_args()
 hparams_raw = get_hparams(args)
 
 save_log = args.save_prefix + "_gnn_train.log"
+# print('......')
+# print(save_log)
+# print('......')
+
 save_graph = args.save_prefix + "_graph.pkl"
 save_model = args.save_prefix + "_model_save.pth"
 save_plots = args.save_prefix + "_train_embed_plots.pdf"
@@ -48,7 +52,13 @@ save_ppi_embed = args.save_prefix + "_protein_embed.pth"
 save_mg_embed = args.save_prefix + "_mg_embed.pth"
 save_labels_dict = args.save_prefix + "_labels_dict.txt"
 
+
+
 log_f = open(save_log, "w")
+print('......')
+print('Writing to log_f: '+save_log)
+print('......')
+
 log_f.write("Number of epochs: %s \n" % args.epochs)
 log_f.write("Save model directory: %s \n" % save_model)
 log_f.write("Save embeddings directory: %s, %s \n" % (save_ppi_embed, save_mg_embed))
@@ -61,7 +71,10 @@ best_val_acc = -1
 best_model = None
 eps = 10e-4
 
-wandb.init(config = hparams_raw, project = "pinnacle", entity = "user")
+
+# import wandb
+wandb.login(key="f362484a2783a681fd551a00093aad3ce3139d4a")
+wandb.init(config = hparams_raw, project = "pinnacle", allow_val_change=True)
 
 hparams = wandb.config
 
@@ -185,7 +198,9 @@ def main():
         optimizer = checkpoint["optimizer"]
         params = list(model.parameters())
     else:
-        model = mdl.Pinnacle(mg_data.x.shape[1], hparams['hidden'], hparams['output'], len(ppi_metapaths), len(mg_metapaths), ppi_data, hparams['n_heads'], hparams['pc_att_channels'], hparams['dropout']).to(device)
+        #model = mdl.Pinnacle(mg_data.x.shape[1], hparams['hidden'], hparams['output'], len(ppi_metapaths), len(mg_metapaths), ppi_data, hparams['n_heads'], hparams['pc_att_channels'], hparams['dropout']).to(device)
+        model = mdl.Pinnacle(ppi_data[0].x.shape[1], hparams['hidden'], hparams['output'], len(ppi_metapaths), len(mg_metapaths), ppi_data, hparams['n_heads'], hparams['pc_att_channels'], hparams['dropout']).to(device)
+        params = list(model.parameters())
         params = list(model.parameters())
         optimizer = torch.optim.Adam(params, lr = hparams['lr'], weight_decay = hparams['wd'])
     center_loss = CenterLoss(num_classes=len(set(center_loss_labels)), feat_dim=hparams['output'] * hparams['n_heads'], use_gpu=torch.cuda.is_available())

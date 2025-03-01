@@ -89,3 +89,15 @@ config: {'pc_att_channels': 16, 'feat_mat': 1024, 'output': 16, 'hidden': 64, 'l
 2025-02-28 15:36:26,535 INFO    MainThread:1547242 [wandb_init.py:_resume_backend():398] resuming backend
 2025-02-28 15:36:26,537 INFO    MainThread:1547242 [wandb_init.py:_pause_backend():389] pausing backend
 2025-02-28 15:36:26,537 INFO    MainThread:1547242 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2025-02-28 15:43:24,084 INFO    MainThread:1547242 [wandb_init.py:_resume_backend():398] resuming backend
+2025-02-28 15:43:24,084 INFO    MainThread:1547242 [wandb_init.py:_pause_backend():389] pausing backend
+2025-02-28 15:43:24,085 INFO    MainThread:1547242 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2025-02-28 15:43:25,207 INFO    MainThread:1547242 [wandb_init.py:_resume_backend():398] resuming backend
+2025-02-28 15:43:25,811 INFO    MainThread:1547242 [wandb_init.py:_pause_backend():389] pausing backend
+2025-02-28 15:43:25,811 INFO    MainThread:1547242 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2025-02-28 15:43:43,140 INFO    MainThread:1547242 [wandb_init.py:_resume_backend():398] resuming backend
+2025-02-28 15:43:43,143 INFO    MainThread:1547242 [wandb_init.py:_pause_backend():389] pausing backend
+2025-02-28 15:43:43,143 INFO    MainThread:1547242 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2025-02-28 15:43:48,882 INFO    MainThread:1547242 [wandb_init.py:_resume_backend():398] resuming backend
+2025-02-28 15:44:08,350 INFO    MainThread:1547242 [wandb_init.py:_pause_backend():389] pausing backend
+2025-02-28 15:44:08,350 INFO    MainThread:1547242 [jupyter.py:save_ipynb():378] not saving jupyter notebook
