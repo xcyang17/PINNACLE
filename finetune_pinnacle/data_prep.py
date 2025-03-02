@@ -188,7 +188,7 @@ def process_and_split_data(embed, positive_proteins, negative_proteins, celltype
         assert len(set(v).intersection(set(groups_train))) == 0, (k, set(v).intersection(set(groups_train)))
 
     data_split_names_path = data_split_path.split(".json")[0] + "_name.json"
-    print(data_split_names_path)
+    print(data_split_names_path) # debug: this got executed
     if not os.path.exists(data_split_names_path): # Generate new splits
         indices_name_dict = {"pos_train_names": list(set(groups_train_pos)),
                              "pos_test_names": list(set(groups_test_pos)),

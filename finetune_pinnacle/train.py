@@ -108,6 +108,7 @@ def main(args, hparams, wandb):
 
 if __name__ == '__main__':
     args = create_parser()
+    print(args)
 
     if not args.random:
         np.random.seed(args.random_state)
@@ -121,7 +122,8 @@ if __name__ == '__main__':
 
     # wandb.init(config = hparams, project = "finetune", entity = "pinnacle")
     wandb.login(key="f362484a2783a681fd551a00093aad3ce3139d4a")
-    hparams = wandb.config
     wandb.init(config=hparams, project="pinnacle_finetune", allow_val_change=True)
+    hparams = wandb.config
+    
 
     main(args, hparams, wandb)
