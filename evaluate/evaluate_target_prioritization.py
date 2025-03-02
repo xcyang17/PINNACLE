@@ -147,6 +147,7 @@ def main():
     metagraph = nx.read_edgelist(METAGRAPH_DIR, delimiter = "\t")
     
     # Read disease-drug evidence
+    # inside therapeutic_target_task folder
     evidence = pd.read_csv(args.evidence + "tx_target/targets/disease_drug_evidence_%s.csv" % args.disease, sep = "\t")
     print(evidence)
 

@@ -79,7 +79,7 @@ if [[ -n "$LAST_MODEL" ]]; then
         --epochs="${nepochs}" \
         --save_prefix "${SAVE_PREFIX}/${output_filename}" \
         --resume_run "${LAST_MODEL}" \
-        --wandb_run_id "${RUN_ID}" \
+        --wandb_run_id "${RUN_ID}" \ 
         --completed_epochs "${EPOCHS_DONE}"
 else
     echo "Starting fresh training run"

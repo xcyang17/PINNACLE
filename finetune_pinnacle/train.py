@@ -119,7 +119,9 @@ if __name__ == '__main__':
     hparams = get_hparams(args)
     print(hparams)
 
-    wandb.init(config = hparams, project = "finetune", entity = "pinnacle")
+    # wandb.init(config = hparams, project = "finetune", entity = "pinnacle")
+    wandb.login(key="f362484a2783a681fd551a00093aad3ce3139d4a")
     hparams = wandb.config
+    wandb.init(config=hparams, project="pinnacle_finetune", allow_val_change=True)
 
     main(args, hparams, wandb)

@@ -1,0 +1,54 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1740875876.281318
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.8.13
+      5: 0.13.4
+      8:
+      - 5
+actn:
+  desc: null
+  value: relu
+dropout:
+  desc: null
+  value: 0
+hidden_dim_1:
+  desc: null
+  value: 64
+hidden_dim_2:
+  desc: null
+  value: 32
+hidden_dim_3:
+  desc: null
+  value: 0
+lr:
+  desc: null
+  value: 0.0001
+norm:
+  desc: null
+  value: null
+order:
+  desc: null
+  value: nd
+task_name:
+  desc: null
+  value: EFO_0000685
+wd:
+  desc: null
+  value: 0.0001

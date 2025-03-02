@@ -1,0 +1,16 @@
+EPOCHS_DONE: 50
+Completed epochs so far: 50
+Launching job 2 out of 5 total (each job runs 50 epochs).
+Reusing existing W&B run ID: 0e895194-344d-44c9-98af-3770b6daf677
+Resuming training from checkpoint: /scratch/gilbreth/yang1641/exome/results/pinnacle/reproduce/epoch250/try1_model_save.pth
+wandb: Currently logged in as: yang1641 (yang1641-purdue-university). Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/yang1641/.netrc
+wandb: wandb version 0.19.7 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.13.4
+wandb: Run data is saved locally in /home/yang1641/PINNACLE/wandb/run-20250301_222902-0e895194-344d-44c9-98af-3770b6daf677
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Resuming run 0e895194-344d-44c9-98af-3770b6daf677
+wandb: ⭐️ View project at https://wandb.ai/yang1641-purdue-university/pinnacle
+wandb: 🚀 View run at https://wandb.ai/yang1641-purdue-university/pinnacle/runs/0e895194-344d-44c9-98af-3770b6daf677
+slurmstepd: error: *** JOB 8100132 ON gilbreth-e000 CANCELLED AT 2025-03-01T22:41:56 ***

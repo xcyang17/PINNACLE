@@ -36,6 +36,8 @@ def get_args():
     # wandb
     ### ADDED: wandb_run_id for cross-job continuity
     parser.add_argument('--wandb_run_id', type=str, default="", help="W&B run ID to resume if needed.")
+    parser.add_argument('--completed_epochs', type=int, default=0,
+                        help="Number of epochs completed so far (from logs).")
 
     
     args = parser.parse_args()

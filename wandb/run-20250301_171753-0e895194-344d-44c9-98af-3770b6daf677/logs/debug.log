@@ -27,3 +27,4 @@ config: {'pc_att_channels': 16, 'feat_mat': 1024, 'output': 16, 'hidden': 64, 'l
 2025-03-01 17:17:53,832 INFO    MainThread:2887789 [wandb_run.py:_redirect():1925] Redirects installed.
 2025-03-01 17:17:53,833 INFO    MainThread:2887789 [wandb_init.py:init():765] run started, returning control to user process
 2025-03-01 17:24:32,315 INFO    MainThread:2887789 [wandb_watch.py:watch():51] Watching
+2025-03-01 20:22:54,642 WARNING MsgRouterThr:2887789 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.14.0-503.19.1.el9_5.x86_64-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2025-03-02T00:40:39.390152",
+    "startedAt": "2025-03-02T00:40:38.951520",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-16GB",
+    "gpu_count": 2,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--task_name",
+        "EFO_0000685",
+        "--embeddings_dir",
+        "/scratch/gilbreth/yang1641/exome/data/PINNACLE/pinnacle_embeds/",
+        "--embed",
+        "pinnacle",
+        "--positive_proteins_prefix",
+        "/scratch/gilbreth/yang1641/exome/data/PINNACLE/therapeutic_target_task/positive_proteins_EFO_0000685",
+        "--negative_proteins_prefix",
+        "/scratch/gilbreth/yang1641/exome/data/PINNACLE/therapeutic_target_task/negative_proteins_EFO_0000685",
+        "--data_split_path",
+        "/scratch/gilbreth/yang1641/exome/data/PINNACLE/therapeutic_target_task/data_split_EFO_0000685"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "finetune_pinnacle/train.py",
+    "git": {
+        "remote": "https://github.com/xcyang17/PINNACLE.git",
+        "commit": "197f77608811e206bbea132ee21ed5422b717c86"
+    },
+    "email": "xcyang@berkeley.edu",
+    "root": "/home/yang1641/PINNACLE",
+    "host": "gilbreth-e000.rcac.purdue.edu",
+    "username": "yang1641",
+    "executable": "/home/yang1641/.conda/envs/pinnacle/bin/python"
+}
