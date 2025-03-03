@@ -27,13 +27,14 @@ def run_finetune(embed, celltype_dict, celltype_protein_dict, positive_proteins,
     wandb.log({f'train positive proportion celltype': positive_proportion_train['celltype'], 'best_val_auprc': best_val_auprc})
 
     # Evaluation for each cell celltype separately
-    positive_proportion_test, auroc_scores, ap_scores = finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, models_output_dir, embed_name, train_ranks, val_ranks)
+    # positive_proportion_test, auroc_scores, ap_scores = finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, models_output_dir, embed_name, train_ranks, val_ranks)
+    positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10 = finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, models_output_dir, embed_name, train_ranks, val_ranks)
 
     # Save model
     save_path = os.path.join(models_output_dir, f"{embed_name}_model.pt")
     torch.save({'epoch': best_epoch, 'model_state_dict': clf.state_dict()}, save_path)
 
-    return positive_proportion_train, positive_proportion_test, auroc_scores, ap_scores
+    return positive_proportion_train, positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10
 
 
 def finetune_train_stage(X_train, y_train, random_state, groups_train, cts_train, hparams, train_size, val_size, num_epoch, batch_size, weigh_sample, weigh_loss, models_output_dir, embed_name):
@@ -54,6 +55,8 @@ def finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, m
     auroc_scores = {}
     ap_scores = {}
     positive_proportion_test = {}
+    apr_at_5 = {}
+    apr_at_10 = {}
 
     test_ranks = {}
     for celltype in celltype_protein_dict:
@@ -81,8 +84,68 @@ def finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, m
         temp.to_csv(f'{models_output_dir}/{embed_name}_test_preds_{celltype}.csv', index=False)  # Save the test predictions
         combined_ranks = pd.concat([train_ranks[celltype], val_ranks[celltype], test_ranks[celltype]], axis=0).sort_values('preds', ascending=False)
         combined_ranks.to_csv(f'{models_output_dir}/{embed_name}_all_preds_{celltype}.csv', index=False)
+        
+        # print(f"y_true: {y_test}, shape: {y_test.shape}")
+        # print(f"y_scores: {y_test_pred}, shape: {y_test_pred.shape}")
+        # print(type(y_test)) # dict
+        # print(type(y_test_pred)) # np.ndarray
+        # print(y_test.keys())
+        # print(y_test_pred.shape)
+
+        
+        # # manually implement APR@5 TODO:
+        apr_at_5[celltype] = apr_at_k(y_test[celltype], y_test_pred, 5)
+        apr_at_10[celltype] = apr_at_k(y_test[celltype], y_test_pred, 10)
+        wandb.log({f'test APR@5 {celltype}': apr_at_5[celltype], f'test APR@10 {celltype}': apr_at_10[celltype]})
     
-    return positive_proportion_test, auroc_scores, ap_scores
+    # return positive_proportion_test, auroc_scores, ap_scores
+    return positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10
+
+
+### Mar 2, 2025, 21:41: added by xiaochen
+def apr_at_k(y_true, y_scores, k):
+    """
+    Calculate APR@K (Average Precision and Recall at K).
+
+    Args:
+        y_true (list or np.array): Binary relevance labels (1 if relevant, 0 otherwise).
+        y_scores (list or np.array): Predicted scores or model outputs.
+        k (int): The value of K for top-K ranking.
+
+    Returns:
+        float: APR@K score.
+    """
+    # Ensure inputs are numpy arrays
+    y_true = np.array(y_true)
+    y_scores = np.array(y_scores)
+
+    # Get the indices of the top K scores
+    top_k_indices = np.argsort(y_scores)[::-1][:k]
+
+    # Calculate Precision@k and rel(k) for the top K items
+    precision_at_k = []
+    rel_k = []
+
+    relevant_count = 0
+    for i, idx in enumerate(top_k_indices):
+        if y_true[idx] == 1:
+            relevant_count += 1
+            rel_k.append(1)
+        else:
+            rel_k.append(0)
+        
+        precision = relevant_count / (i + 1)  # Precision@k
+        precision_at_k.append(precision * rel_k[-1])
+
+    # Calculate the total number of relevant items (r)
+    r = np.sum(y_true)
+
+    # Compute APR@K
+    apr_k = np.sum(precision_at_k) / r if r > 0 else 0
+
+    return apr_k
+
+
 
 
 def main(args, hparams, wandb):

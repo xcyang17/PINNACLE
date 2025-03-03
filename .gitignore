@@ -1,3 +1,6 @@
-finetune_pinnacle/tmp_evaluation_results
-finetune_pinnacle/tmp_model_outputs
+finetune_pinnacle/tmp_evaluation_results/*/*.csv
+finetune_pinnacle/tmp_model_outputs/*/*.csv
 finetune_pinnacle/wandb
+finetune_pinnacle/tmp_evaluation_results/pinnacle_seed=1
+finetune_pinnacle/tmp_model_outputs/pinnacle_seed=1
+wandb

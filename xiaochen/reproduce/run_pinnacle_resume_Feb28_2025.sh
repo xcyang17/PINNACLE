@@ -9,7 +9,7 @@ conda activate pinnacle
 nepochs=${1} # number of epochs in one job - try 50
 MAX_EPOCHS=${2} # 250
 SAVE_PREFIX="/scratch/gilbreth/yang1641/exome/results/pinnacle/reproduce/epoch"${MAX_EPOCHS}
-output_filename=try1
+output_filename=${3}
 mkdir -p ${SAVE_PREFIX}
 
 
@@ -111,7 +111,7 @@ if [ "$EPOCHS_DONE" -lt "$MAX_EPOCHS" ]; then
     if [ "$job_i" -lt "$n_jobs" ]; then
         echo "Resubmitting job for next chunk..."
         cd /scratch/gilbreth/yang1641/exome/logs # go back to the log directory
-        sbatch -N 1 --gres=gpu:2 --job-name=pinnacle_train --mem 40g -t 4:00:00 --mail-type=end,fail --mail-user=yang1641@purdue.edu -A standby "$0" "${nepochs}" "${MAX_EPOCHS}"
+        sbatch -N 1 --gres=gpu:2 --job-name=pinnacle_train --mem 40g -t 4:00:00 --mail-type=end,fail --mail-user=yang1641@purdue.edu -A standby "$0" "${nepochs}" "${MAX_EPOCHS}" "${output_filename}"
     else
         echo "We have reached ${job_i} jobs (i.e., ${EPOCHS_DONE} epochs). Training complete!"
     fi

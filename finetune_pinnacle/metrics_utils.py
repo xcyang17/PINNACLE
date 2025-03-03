@@ -13,11 +13,12 @@ matplotlib.use('Agg')
 from data_prep import process_and_split_data
 
 
-def save_results(output_results_path: str, ap_scores: Dict[str, Dict[str, float]], auroc_scores: Dict[str, Dict[str, float]]):
+# def save_results(output_results_path: str, ap_scores: Dict[str, Dict[str, float]], auroc_scores: Dict[str, Dict[str, float]]):
+def save_results(output_results_path: str, ap_scores: Dict[str, Dict[str, float]], auroc_scores: Dict[str, Dict[str, float]], apr_at_5: Dict[str, Dict[str, float]], apr_at_10: Dict[str, Dict[str, float]]):
     """
     Save results in the form of dictionary to a json file.
     """
-    res = {'ap': ap_scores, 'auroc': auroc_scores}
+    res = {'ap': ap_scores, 'auroc': auroc_scores, 'apr_at_5': apr_at_5, 'apr_at_10': apr_at_10}
     with open(output_results_path, 'w') as f:
         json.dump(res, f)        
     print(f"\nResults output to -> {output_results_path}")
