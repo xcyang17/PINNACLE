@@ -37,7 +37,7 @@ def save_torch_train_val_preds(best_train_y, best_train_preds, best_train_groups
         if len(np.unique(val_y_ct)) < 2:
             auroc_score, ap_score, ct_recall_5, ct_precision_5, ct_ap_5, ct_recall_10, ct_precision_10, ct_ap_10, sorted_val_y_ct, sorted_val_preds_ct, sorted_val_groups_ct, positive_proportion_val = -1, -1, -1, -1, -1, -1, -1, -1, np.array([-1] * len(val_y_ct)), np.array([-1] * len(val_y_ct)), np.array([-1] * len(val_y_ct)), -1
         else:
-            auroc_score, ap_score, ct_recall_5, ct_precision_5, ct_ap_5, ct_recall_10, ct_precision_10, ct_ap_10, sorted_val_y_ct, sorted_val_preds_ct, sorted_val_groups_ct, positive_proportion_val = get_metrics(val_y_ct, val_preds_ct, val_groups_ct, "training")
+            auroc_score, ap_score, ct_recall_5, ct_precision_5, ct_ap_5, ct_recall_10, ct_precision_10, ct_ap_10, sorted_val_y_ct, sorted_val_preds_ct, sorted_val_groups_ct, positive_proportion_val, _, _ = get_metrics(val_y_ct, val_preds_ct, val_groups_ct, "training")
             if len(sorted_val_y_ct) > 0: sorted_val_y_ct = sorted_val_y_ct.squeeze(-1)
             if len(sorted_val_preds_ct) > 0: sorted_val_preds_ct = sorted_val_preds_ct.squeeze(-1)
         
@@ -114,5 +114,9 @@ def get_metrics(y, y_pred, groups, celltype):
 
     # Calculate positive label proportions for each cell type, i.e. baseline for AP metric
     positive_proportion = sum(y[celltype]) / len(y[celltype])
+    
+    positive_count = sum(y[celltype])
+    total_count = len(y[celltype])
 
-    return auroc_score, ap_score, recall_5, precision_5, ap_5, recall_10, precision_10, ap_10, sorted_y, sorted_preds, sorted_groups, positive_proportion
+    # 14 elements being returned - two additional elements (positive_count, total_count)
+    return auroc_score, ap_score, recall_5, precision_5, ap_5, recall_10, precision_10, ap_10, sorted_y, sorted_preds, sorted_groups, positive_proportion, positive_count, total_count

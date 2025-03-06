@@ -145,7 +145,9 @@ def train_epoch(model, train_loader, optim, loss_func, batch_size, wandb, device
     all_cts = all_cts.detach().numpy().astype(int)
     all_groups = all_groups.detach().numpy().astype(int)
 
-    train_auroc, train_auprc, train_recall_5, train_precision_5, train_ap_5, train_recall_10, train_precision_10, train_ap_10, _, _, _, _ = get_metrics(all_y, all_preds, all_groups, "training")
+    # ap_score in get_metrics is auprc
+    # train_auroc, train_auprc, train_recall_5, train_precision_5, train_ap_5, train_recall_10, train_precision_10, train_ap_10, _, _, _, _ = get_metrics(all_y, all_preds, all_groups, "training")
+    train_auroc, train_auprc, train_recall_5, train_precision_5, train_ap_5, train_recall_10, train_precision_10, train_ap_10, _, _, _, _, _, _ = get_metrics(all_y, all_preds, all_groups, "training")
 
     total_loss = total_loss / total_sample
     wandb.log({f"train AUPRC": train_auprc,
@@ -189,7 +191,8 @@ def validate_epoch(model, val_loader, loss_func, wandb, device):
 
     ys, preds, cts, groups = all_y.detach().numpy(), torch.sigmoid(all_preds).detach().numpy(), all_cts.detach().numpy(), all_groups.detach().numpy()
 
-    val_auroc, val_auprc, val_recall_5, val_precision_5, val_ap_5, val_recall_10, val_precision_10, val_ap_10, _, _, _, _ = get_metrics(ys, preds, groups, "training")
+    # val_auroc, val_auprc, val_recall_5, val_precision_5, val_ap_5, val_recall_10, val_precision_10, val_ap_10, _, _, _, _ = get_metrics(ys, preds, groups, "training")
+    val_auroc, val_auprc, val_recall_5, val_precision_5, val_ap_5, val_recall_10, val_precision_10, val_ap_10, _, _, _, _, _, _ = get_metrics(ys, preds, groups, "training")
 
     wandb.log({f"val loss":val_loss,
                f"val AUPRC":val_auprc,

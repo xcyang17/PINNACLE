@@ -24,17 +24,22 @@ def run_finetune(embed, celltype_dict, celltype_protein_dict, positive_proteins,
     
     positive_proportion_train = {}
     positive_proportion_train['celltype'] = sum(y_train) / len(y_train)
+    positive_count_train = {}
+    positive_count_train['celltype'] = sum(y_train)
+    total_count_train = {}
+    total_count_train['celltype'] = len(y_train)
     wandb.log({f'train positive proportion celltype': positive_proportion_train['celltype'], 'best_val_auprc': best_val_auprc})
 
     # Evaluation for each cell celltype separately
     # positive_proportion_test, auroc_scores, ap_scores = finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, models_output_dir, embed_name, train_ranks, val_ranks)
-    positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10 = finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, models_output_dir, embed_name, train_ranks, val_ranks)
+    (positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10, ap_at_5, ap_at_10, 
+        positive_count_test, total_count_test) = finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, models_output_dir, embed_name, train_ranks, val_ranks)
 
     # Save model
     save_path = os.path.join(models_output_dir, f"{embed_name}_model.pt")
     torch.save({'epoch': best_epoch, 'model_state_dict': clf.state_dict()}, save_path)
 
-    return positive_proportion_train, positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10
+    return positive_proportion_train, positive_count_train, total_count_train, positive_proportion_test, positive_count_test, total_count_test, auroc_scores, ap_scores, apr_at_5, apr_at_10, ap_at_5, ap_at_10
 
 
 def finetune_train_stage(X_train, y_train, random_state, groups_train, cts_train, hparams, train_size, val_size, num_epoch, batch_size, weigh_sample, weigh_loss, models_output_dir, embed_name):
@@ -44,8 +49,15 @@ def finetune_train_stage(X_train, y_train, random_state, groups_train, cts_train
     n_splits = int((train_size+val_size)/val_size)
     train_indices, val_indices = list(StratifiedGroupKFold(n_splits=n_splits, random_state=random_state, shuffle=True).split(X=X_train, groups=groups_train, y=y_train))[np.random.randint(0, n_splits)]  # borrow CV generator to generate one split
     
-    clf, best_train_y, best_train_preds, best_train_cts, best_train_groups, cts_map_train, groups_map_train, best_val_y, best_val_preds, best_val_cts, best_val_groups, cts_map_val, groups_map_val, best_epoch, best_val_auprc = training_and_validation(X_train[train_indices], X_train[val_indices], torch.Tensor(y_train)[train_indices], torch.Tensor(y_train)[val_indices], np.array(cts_train)[train_indices], np.array(cts_train)[val_indices], np.array(groups_train)[train_indices], np.array(groups_train)[val_indices], num_epoch, batch_size, weigh_sample, weigh_loss, hparams)
-    train_ranks, val_ranks = save_torch_train_val_preds(best_train_y, best_train_preds, best_train_groups, best_train_cts, best_val_y, best_val_preds, best_val_groups, best_val_cts, groups_map_train, groups_map_val, cts_map_train, cts_map_val, models_output_dir, embed_name, wandb)
+    (clf, best_train_y, best_train_preds, best_train_cts, best_train_groups, cts_map_train, groups_map_train, 
+        best_val_y, best_val_preds, best_val_cts, best_val_groups, cts_map_val, groups_map_val, best_epoch, best_val_auprc) = training_and_validation(
+            X_train[train_indices], X_train[val_indices], torch.Tensor(y_train)[train_indices], torch.Tensor(y_train)[val_indices], 
+            np.array(cts_train)[train_indices], np.array(cts_train)[val_indices], np.array(groups_train)[train_indices], np.array(groups_train)[val_indices], 
+            num_epoch, batch_size, weigh_sample, weigh_loss, hparams)
+        
+    train_ranks, val_ranks = save_torch_train_val_preds(best_train_y, best_train_preds, best_train_groups, best_train_cts, 
+                                                        best_val_y, best_val_preds, best_val_groups, best_val_cts, groups_map_train, groups_map_val, 
+                                                        cts_map_train, cts_map_val, models_output_dir, embed_name, wandb)
 
     clf = clf.to(torch.device('cpu'))
     return clf, best_epoch, best_val_auprc, train_ranks, val_ranks
@@ -57,6 +69,10 @@ def finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, m
     positive_proportion_test = {}
     apr_at_5 = {}
     apr_at_10 = {}
+    test_ap_5_dict = {}
+    test_ap_10_dict = {}
+    positive_count_dict = {}
+    total_count_dict = {}
 
     test_ranks = {}
     for celltype in celltype_protein_dict:
@@ -66,7 +82,11 @@ def finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, m
             y_test_pred = torch.sigmoid(clf(X_test[celltype])).squeeze(-1).numpy()
         
         # Evaluation on test set
-        auroc_scores[celltype], ap_scores[celltype], test_recall_5, test_precision_5, test_ap_5, test_recall_10, test_precision_10, test_ap_10, sorted_y_test, sorted_preds_test, sorted_groups_test, positive_proportion_test[celltype] = get_metrics(y_test, y_test_pred, groups_test, celltype)
+        (auroc_scores[celltype], ap_scores[celltype], 
+            test_recall_5, test_precision_5, test_ap_5, test_recall_10, test_precision_10, test_ap_10, 
+            sorted_y_test, sorted_preds_test, sorted_groups_test, positive_proportion_test[celltype], 
+            positive_count, total_count) = get_metrics(y_test, y_test_pred, groups_test, celltype)
+        
         wandb.log({f'test AUPRC {celltype}': ap_scores[celltype], 
                    f'test AUROC {celltype}': auroc_scores[celltype],
                    f'test positive proportion {celltype}': positive_proportion_test[celltype],
@@ -85,21 +105,19 @@ def finetune_evaluate(celltype_protein_dict, clf, X_test, y_test, groups_test, m
         combined_ranks = pd.concat([train_ranks[celltype], val_ranks[celltype], test_ranks[celltype]], axis=0).sort_values('preds', ascending=False)
         combined_ranks.to_csv(f'{models_output_dir}/{embed_name}_all_preds_{celltype}.csv', index=False)
         
-        # print(f"y_true: {y_test}, shape: {y_test.shape}")
-        # print(f"y_scores: {y_test_pred}, shape: {y_test_pred.shape}")
-        # print(type(y_test)) # dict
-        # print(type(y_test_pred)) # np.ndarray
-        # print(y_test.keys())
-        # print(y_test_pred.shape)
-
         
         # # manually implement APR@5 TODO:
         apr_at_5[celltype] = apr_at_k(y_test[celltype], y_test_pred, 5)
         apr_at_10[celltype] = apr_at_k(y_test[celltype], y_test_pred, 10)
-        wandb.log({f'test APR@5 {celltype}': apr_at_5[celltype], f'test APR@10 {celltype}': apr_at_10[celltype]})
+        test_ap_5_dict[celltype] = test_ap_5
+        test_ap_10_dict[celltype] = test_ap_10
+        positive_count_dict[celltype] = positive_count
+        total_count_dict[celltype] = total_count
+        wandb.log({f'test APR@5 {celltype}': apr_at_5[celltype], f'test APR@10 {celltype}': apr_at_10[celltype], 
+                   f'test AP@5 {celltype}': test_ap_5_dict[celltype], f'test AP@10 {celltype}': test_ap_10_dict[celltype]})
     
     # return positive_proportion_test, auroc_scores, ap_scores
-    return positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10
+    return positive_proportion_test, auroc_scores, ap_scores, apr_at_5, apr_at_10, test_ap_5_dict, test_ap_10_dict, positive_count_dict, total_count_dict
 
 
 ### Mar 2, 2025, 21:41: added by xiaochen
