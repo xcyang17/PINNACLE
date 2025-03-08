@@ -68,6 +68,7 @@ def training_and_validation(X_train, X_val, y_train, y_val, cts_train, cts_val, 
     else:
         hidden_dims = [hparams[hidden_dim_1], hparams[hidden_dim_2], hparams[hidden_dim_3]]
 
+    # TODO: do I need to clear cache?
     model = MLP(in_dim = X_train.shape[1], hidden_dims = hidden_dims, p = hparams[dropout], norm=hparams[norm], actn=hparams[actn], order=hparams[order])
     model = model.to(device)
 
