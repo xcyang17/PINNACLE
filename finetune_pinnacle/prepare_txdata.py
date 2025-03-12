@@ -1,3 +1,6 @@
+
+# xiaochen's note: outputs positive_proteins_EFO_0000685.json, negative_proteins_EFO_0000685.json, raw_targets_EFO_0000685.json
+
 from collections import Counter
 from typing import Dict, List
 import numpy as np
