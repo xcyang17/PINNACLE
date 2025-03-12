@@ -33,7 +33,8 @@ def read_ppi(ppi_dir):
     for f in glob.glob(ppi_dir + "*.txt"): # Expected format of filename: <PPI_DIR>/<CONTEXT>.<suffix>
 
         # Parse name of context
-        context = f.split(ppi_dir)[1].split(".")[0].replace("_edgelist", "")
+#         context = f.split(ppi_dir)[1].split(".")[0].replace("_edgelist", "")
+        context = '.'.join(f.split(ppi_dir)[1].split(".")[:-1]).replace("_edgelist", "")
         context = context.replace("_", " ") # xiaochen's modification
 
         try:
