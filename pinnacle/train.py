@@ -76,14 +76,18 @@ if args.wandb_run_id:
     print(f"Attaching to existing wandb run ID {args.wandb_run_id}")
     wandb.init(
         config=hparams_raw,
-        project="pinnacle",
+        # project="pinnacle",
+        project = args.wandb_project_name,
         allow_val_change=True,
         id=args.wandb_run_id,
         resume="allow"
     )
 else:
     print("No wandb_run_id provided; creating a brand new run.")
-    wandb.init(config=hparams_raw, project="pinnacle", allow_val_change=True)
+    wandb.init(config=hparams_raw, 
+               #    project="pinnacle", 
+               project = args.wandb_project_name,
+               allow_val_change=True)
 
 hparams = wandb.config
 
@@ -117,8 +121,9 @@ def train(epoch, model, optimizer, center_loss):
     model.train()
     
     # Run batch training
-    _, _, mg_pred, ppi_preds_all, ppi_data_train_y, loss = mb_utils.iterate_train_batch(ppi_train_loader_dict, ppi_x_ori, ppi_metapaths, mg_x_ori, mg_metapaths_train, mg_data_train, tissue_neighbors, model, hparams, device, wandb, center_loss, optimizer, train_mask)
-    # ppi_x_ori, mg_x_ori, mg_pred, ppi_preds_all, ppi_data_train_y, loss = utils.iterate_train_batch(ppi_train_loader_dict, ppi_x_ori, ppi_metapaths, mg_x_ori, mg_metapaths_train, mg_data_train, tissue_neighbors, model, hparams, device, wandb, center_loss, optimizer, train_mask)
+    # _, _, mg_pred, ppi_preds_all, ppi_data_train_y, loss = mb_utils.iterate_train_batch(ppi_train_loader_dict, ppi_x_ori, ppi_metapaths, mg_x_ori, mg_metapaths_train, mg_data_train, tissue_neighbors, model, hparams, device, wandb, center_loss, optimizer, train_mask)
+    # xiaochen's update:
+    _, _, mg_pred, ppi_preds_all, ppi_data_train_y, loss = mb_utils.iterate_train_batch(ppi_train_loader_dict, ppi_x_ori, ppi_metapaths, mg_x_ori, mg_metapaths_train, mg_data_train, tissue_neighbors, model, hparams, device, wandb, center_loss, optimizer, train_mask, args.include_metagraph_link_pred)
 
     # Training metrics
     roc_score, ap_score, train_acc, train_f1 = utils.calc_metrics(mg_pred, mg_data_train, ppi_preds_all, ppi_data_train_y)

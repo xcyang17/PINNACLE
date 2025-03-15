@@ -38,7 +38,12 @@ def get_args():
     parser.add_argument('--wandb_run_id', type=str, default="", help="W&B run ID to resume if needed.")
     parser.add_argument('--completed_epochs', type=int, default=0,
                         help="Number of epochs completed so far (from logs).")
-
+    ### ADDED: to include metagraph link prediction loss or not
+    parser.add_argument('--include_metagraph_link_pred', type=bool, default=False,
+                        help="Include metagraph link prediction loss or not.")
+    ### ADDED: wandb project name
+    parser.add_argument('--wandb_project_name', type=str, default="pinnacle",
+                        help="Wandb project name.")
     
     args = parser.parse_args()
     return args
@@ -61,6 +66,9 @@ def get_hparams(args):
                'lr_cent': args.lr_cent,
                'loss_type': "BCE",
                'plot': args.plot,
+               # ADDED:
+               'include_metagraph_link_pred': args.include_metagraph_link_pred, 
+               'wandb_project_name': args.wandb_project_name
               }
     print("Hyperparameters:", hparams)    
 
