@@ -29,7 +29,7 @@ EPOCHS_DONE=${EPOCHS_DONE:-0}  # default 0 if not found
 echo "EPOCHS_DONE: ${EPOCHS_DONE}"
 
 # 2) Find the last saved model, to resume
-LAST_MODEL=$(ls -t ${SAVE_PREFIX}/*_model_save.pth 2>/dev/null | head -n 1)
+LAST_MODEL=$(ls -t ${SAVE_PREFIX}/${output_filename}_model_save.pth 2>/dev/null | head -n 1)
 
 # 3) Calculate how many total "jobs" we need
 #    (assuming MAX_EPOCHS is divisible by nepochs)
